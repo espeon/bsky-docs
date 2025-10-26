@@ -27,7 +27,7 @@ Find all correlated threat signatures between 2 or more accounts.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `details` | Array of [`tools.ozone.signature.defs#sigDetail`](/tools/ozone/signature/defs#sigDetail) | ✅  |  |  |
+| `details` | Array of [`tools.ozone.signature.defs#sigDetail`](lexicons/tools/ozone/signature/defs#sigDetail) | ✅  |  |  |
 
 ---
 

@@ -34,7 +34,7 @@ Administrative action to create a new, re-usable communication (email for now) t
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`tools.ozone.communication.defs#templateView`](/tools/ozone/communication/defs#templateView)
+**Schema Type:** [`tools.ozone.communication.defs#templateView`](lexicons/tools/ozone/communication/defs#templateView)
 
 
 **Possible Errors:**

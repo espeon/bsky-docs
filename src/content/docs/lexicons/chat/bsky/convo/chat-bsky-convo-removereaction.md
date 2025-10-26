@@ -36,7 +36,7 @@ Removes an emoji reaction from a message. Requires authentication. It is idempot
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `message` | [`chat.bsky.convo.defs#messageView`](/chat/bsky/convo/defs#messageView) | ✅  |  |  |
+| `message` | [`chat.bsky.convo.defs#messageView`](lexicons/chat/bsky/convo/defs#messageView) | ✅  |  |  |
 **Possible Errors:**
 
 - `ReactionMessageDeleted`: Indicates that the message has been deleted and reactions can no longer be added/removed.

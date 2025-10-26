@@ -23,7 +23,7 @@ Get details about a moderation event.
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`tools.ozone.moderation.defs#modEventViewDetail`](/tools/ozone/moderation/defs#modEventViewDetail)
+**Schema Type:** [`tools.ozone.moderation.defs#modEventViewDetail`](lexicons/tools/ozone/moderation/defs#modEventViewDetail)
 
 
 

@@ -17,11 +17,11 @@ description: Reference for the app.bsky.labeler.defs lexicon
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
-| `creator` | [`app.bsky.actor.defs#profileView`](/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `creator` | [`app.bsky.actor.defs#profileView`](lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
 | `likeCount` | `integer` | ❌  |  | Min: 0 |
 | `viewer` | [`#labelerViewerState`](#labelerviewerstate) | ❌  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
-| `labels` | Array of [`com.atproto.label.defs#label`](/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](lexicons/com/atproto/label/defs#label) | ❌  |  |  |
 
 ---
 
@@ -36,14 +36,14 @@ description: Reference for the app.bsky.labeler.defs lexicon
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
-| `creator` | [`app.bsky.actor.defs#profileView`](/app/bsky/actor/defs#profileView) | ✅  |  |  |
-| `policies` | [`app.bsky.labeler.defs#labelerPolicies`](/app/bsky/labeler/defs#labelerPolicies) | ✅  |  |  |
+| `creator` | [`app.bsky.actor.defs#profileView`](lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `policies` | [`app.bsky.labeler.defs#labelerPolicies`](lexicons/app/bsky/labeler/defs#labelerPolicies) | ✅  |  |  |
 | `likeCount` | `integer` | ❌  |  | Min: 0 |
 | `viewer` | [`#labelerViewerState`](#labelerviewerstate) | ❌  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
-| `labels` | Array of [`com.atproto.label.defs#label`](/com/atproto/label/defs#label) | ❌  |  |  |
-| `reasonTypes` | Array of [`com.atproto.moderation.defs#reasonType`](/com/atproto/moderation/defs#reasonType) | ❌  | The set of report reason 'codes' which are in-scope for this service to review and action. These usually align to policy categories. If not defined (distinct from empty array), all reason types are allowed. |  |
-| `subjectTypes` | Array of [`com.atproto.moderation.defs#subjectType`](/com/atproto/moderation/defs#subjectType) | ❌  | The set of subject types (account, record, etc) this service accepts reports on. |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `reasonTypes` | Array of [`com.atproto.moderation.defs#reasonType`](lexicons/com/atproto/moderation/defs#reasonType) | ❌  | The set of report reason 'codes' which are in-scope for this service to review and action. These usually align to policy categories. If not defined (distinct from empty array), all reason types are allowed. |  |
+| `subjectTypes` | Array of [`com.atproto.moderation.defs#subjectType`](lexicons/com/atproto/moderation/defs#subjectType) | ❌  | The set of subject types (account, record, etc) this service accepts reports on. |  |
 | `subjectCollections` | Array of `string` | ❌  | Set of record types (collection NSIDs) which can be reported to this service. If not defined (distinct from empty array), default is any record type. |  |
 
 ---
@@ -70,8 +70,8 @@ description: Reference for the app.bsky.labeler.defs lexicon
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `labelValues` | Array of [`com.atproto.label.defs#labelValue`](/com/atproto/label/defs#labelValue) | ✅  | The label values which this labeler publishes. May include global or custom labels. |  |
-| `labelValueDefinitions` | Array of [`com.atproto.label.defs#labelValueDefinition`](/com/atproto/label/defs#labelValueDefinition) | ❌  | Label values created by this labeler and scoped exclusively to it. Labels defined here will override global label definitions for this labeler. |  |
+| `labelValues` | Array of [`com.atproto.label.defs#labelValue`](lexicons/com/atproto/label/defs#labelValue) | ✅  | The label values which this labeler publishes. May include global or custom labels. |  |
+| `labelValueDefinitions` | Array of [`com.atproto.label.defs#labelValueDefinition`](lexicons/com/atproto/label/defs#labelValueDefinition) | ❌  | Label values created by this labeler and scoped exclusively to it. Labels defined here will override global label definitions for this labeler. |  |
 
 ---
 

@@ -29,7 +29,7 @@ Get a list of suggested feeds (feed generators) for the requesting account.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `feeds` | Array of [`app.bsky.feed.defs#generatorView`](/app/bsky/feed/defs#generatorView) | ✅  |  |  |
+| `feeds` | Array of [`app.bsky.feed.defs#generatorView`](lexicons/app/bsky/feed/defs#generatorView) | ✅  |  |  |
 
 ---
 

@@ -29,9 +29,9 @@ Get the service-specific admin status of a subject (account, record, or blob).
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `subject` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoRef`](/com/atproto/admin/defs#repoRef)<br/>&nbsp;&nbsp;[`com.atproto.repo.strongRef`](/com/atproto/repo/strongref#undefined)<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoBlobRef`](/com/atproto/admin/defs#repoBlobRef) | ✅  |  |  |
-| `takedown` | [`com.atproto.admin.defs#statusAttr`](/com/atproto/admin/defs#statusAttr) | ❌  |  |  |
-| `deactivated` | [`com.atproto.admin.defs#statusAttr`](/com/atproto/admin/defs#statusAttr) | ❌  |  |  |
+| `subject` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoRef`](lexicons/com/atproto/admin/defs#repoRef)<br/>&nbsp;&nbsp;[`com.atproto.repo.strongRef`](lexicons/com/atproto/repo/strongref#undefined)<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoBlobRef`](lexicons/com/atproto/admin/defs#repoBlobRef) | ✅  |  |  |
+| `takedown` | [`com.atproto.admin.defs#statusAttr`](lexicons/com/atproto/admin/defs#statusAttr) | ❌  |  |  |
+| `deactivated` | [`com.atproto.admin.defs#statusAttr`](lexicons/com/atproto/admin/defs#statusAttr) | ❌  |  |  |
 
 ---
 

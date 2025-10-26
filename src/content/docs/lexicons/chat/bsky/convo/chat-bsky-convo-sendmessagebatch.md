@@ -32,7 +32,7 @@ description: Reference for the chat.bsky.convo.sendMessageBatch lexicon
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `items` | Array of [`chat.bsky.convo.defs#messageView`](/chat/bsky/convo/defs#messageView) | ✅  |  |  |
+| `items` | Array of [`chat.bsky.convo.defs#messageView`](lexicons/chat/bsky/convo/defs#messageView) | ✅  |  |  |
 
 ---
 
@@ -46,7 +46,7 @@ description: Reference for the chat.bsky.convo.sendMessageBatch lexicon
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `convoId` | `string` | ✅  |  |  |
-| `message` | [`chat.bsky.convo.defs#messageInput`](/chat/bsky/convo/defs#messageInput) | ✅  |  |  |
+| `message` | [`chat.bsky.convo.defs#messageInput`](lexicons/chat/bsky/convo/defs#messageInput) | ✅  |  |  |
 
 ---
 

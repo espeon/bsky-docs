@@ -34,8 +34,8 @@ description: Reference for the com.atproto.admin.defs lexicon
 | `email` | `string` | ❌  |  |  |
 | `relatedRecords` | Array of `unknown` | ❌  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
-| `invitedBy` | [`com.atproto.server.defs#inviteCode`](/com/atproto/server/defs#inviteCode) | ❌  |  |  |
-| `invites` | Array of [`com.atproto.server.defs#inviteCode`](/com/atproto/server/defs#inviteCode) | ❌  |  |  |
+| `invitedBy` | [`com.atproto.server.defs#inviteCode`](lexicons/com/atproto/server/defs#inviteCode) | ❌  |  |  |
+| `invites` | Array of [`com.atproto.server.defs#inviteCode`](lexicons/com/atproto/server/defs#inviteCode) | ❌  |  |  |
 | `invitesDisabled` | `boolean` | ❌  |  |  |
 | `emailConfirmedAt` | `string` | ❌  |  | Format: `datetime` |
 | `inviteNote` | `string` | ❌  |  |  |

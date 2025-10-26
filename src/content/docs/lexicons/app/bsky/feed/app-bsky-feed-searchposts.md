@@ -40,7 +40,7 @@ Find posts matching search criteria, returning views of those posts. Note that t
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
 | `hitsTotal` | `integer` | ❌  | Count of search hits. Optional, may be rounded/truncated, and may not be possible to paginate through all hits. |  |
-| `posts` | Array of [`app.bsky.feed.defs#postView`](/app/bsky/feed/defs#postView) | ✅  |  |  |
+| `posts` | Array of [`app.bsky.feed.defs#postView`](lexicons/app/bsky/feed/defs#postView) | ✅  |  |  |
 **Possible Errors:**
 
 - `BadQueryString`

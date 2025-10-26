@@ -25,7 +25,7 @@ Remove an existing URL safety rule
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `url` | `string` | ✅  | The URL or domain to remove the rule for |  |
-| `pattern` | [`tools.ozone.safelink.defs#patternType`](/tools/ozone/safelink/defs#patternType) | ✅  |  |  |
+| `pattern` | [`tools.ozone.safelink.defs#patternType`](lexicons/tools/ozone/safelink/defs#patternType) | ✅  |  |  |
 | `comment` | `string` | ❌  | Optional comment about why the rule is being removed |  |
 | `createdBy` | `string` | ❌  | Optional DID of the user. Only respected when using admin auth. | Format: `did` |
 **Output:**
@@ -33,7 +33,7 @@ Remove an existing URL safety rule
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`tools.ozone.safelink.defs#event`](/tools/ozone/safelink/defs#event)
+**Schema Type:** [`tools.ozone.safelink.defs#event`](lexicons/tools/ozone/safelink/defs#event)
 
 
 **Possible Errors:**

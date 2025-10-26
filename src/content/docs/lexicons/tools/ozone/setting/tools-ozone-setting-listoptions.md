@@ -32,7 +32,7 @@ List settings with optional filtering
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `options` | Array of [`tools.ozone.setting.defs#option`](/tools/ozone/setting/defs#option) | ✅  |  |  |
+| `options` | Array of [`tools.ozone.setting.defs#option`](lexicons/tools/ozone/setting/defs#option) | ✅  |  |  |
 
 ---
 

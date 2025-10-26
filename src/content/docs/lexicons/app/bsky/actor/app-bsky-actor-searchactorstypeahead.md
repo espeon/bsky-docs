@@ -29,7 +29,7 @@ Find actor suggestions for a prefix search term. Expected use is for auto-comple
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `actors` | Array of [`app.bsky.actor.defs#profileViewBasic`](/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
+| `actors` | Array of [`app.bsky.actor.defs#profileViewBasic`](lexicons/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
 
 ---
 

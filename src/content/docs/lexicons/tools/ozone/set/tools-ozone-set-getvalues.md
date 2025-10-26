@@ -29,7 +29,7 @@ Get a specific set and its values
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `set` | [`tools.ozone.set.defs#setView`](/tools/ozone/set/defs#setView) | ✅  |  |  |
+| `set` | [`tools.ozone.set.defs#setView`](lexicons/tools/ozone/set/defs#setView) | ✅  |  |  |
 | `values` | Array of `string` | ✅  |  |  |
 | `cursor` | `string` | ❌  |  |  |
 **Possible Errors:**

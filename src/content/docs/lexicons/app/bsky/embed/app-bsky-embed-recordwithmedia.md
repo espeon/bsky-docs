@@ -17,8 +17,8 @@ A representation of a record embedded in a Bluesky record (eg, a post), alongsid
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `record` | [`app.bsky.embed.record`](/app/bsky/embed/record#undefined) | ✅  |  |  |
-| `media` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.images`](/app/bsky/embed/images#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.video`](/app/bsky/embed/video#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.external`](/app/bsky/embed/external#undefined) | ✅  |  |  |
+| `record` | [`app.bsky.embed.record`](lexicons/app/bsky/embed/record#undefined) | ✅  |  |  |
+| `media` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.images`](lexicons/app/bsky/embed/images#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.video`](lexicons/app/bsky/embed/video#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.external`](lexicons/app/bsky/embed/external#undefined) | ✅  |  |  |
 
 ---
 
@@ -31,8 +31,8 @@ A representation of a record embedded in a Bluesky record (eg, a post), alongsid
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `record` | [`app.bsky.embed.record#view`](/app/bsky/embed/record#view) | ✅  |  |  |
-| `media` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.images#view`](/app/bsky/embed/images#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.video#view`](/app/bsky/embed/video#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.external#view`](/app/bsky/embed/external#view) | ✅  |  |  |
+| `record` | [`app.bsky.embed.record#view`](lexicons/app/bsky/embed/record#view) | ✅  |  |  |
+| `media` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.images#view`](lexicons/app/bsky/embed/images#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.video#view`](lexicons/app/bsky/embed/video#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.external#view`](lexicons/app/bsky/embed/external#view) | ✅  |  |  |
 
 ---
 

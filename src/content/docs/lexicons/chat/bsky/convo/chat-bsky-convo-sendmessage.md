@@ -23,13 +23,13 @@ description: Reference for the chat.bsky.convo.sendMessage lexicon
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `convoId` | `string` | ✅  |  |  |
-| `message` | [`chat.bsky.convo.defs#messageInput`](/chat/bsky/convo/defs#messageInput) | ✅  |  |  |
+| `message` | [`chat.bsky.convo.defs#messageInput`](lexicons/chat/bsky/convo/defs#messageInput) | ✅  |  |  |
 **Output:**
 
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`chat.bsky.convo.defs#messageView`](/chat/bsky/convo/defs#messageView)
+**Schema Type:** [`chat.bsky.convo.defs#messageView`](lexicons/chat/bsky/convo/defs#messageView)
 
 
 

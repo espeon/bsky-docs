@@ -32,7 +32,7 @@ A set of images embedded in a Bluesky record (eg, a post).
 |------|------|----------|-------------|-------------|
 | `image` | `blob` | ✅  |  | Accept: `image/*`<br/>Max Size: 1000000 bytes |
 | `alt` | `string` | ✅  | Alt text description of the image, for accessibility. |  |
-| `aspectRatio` | [`app.bsky.embed.defs#aspectRatio`](/app/bsky/embed/defs#aspectRatio) | ❌  |  |  |
+| `aspectRatio` | [`app.bsky.embed.defs#aspectRatio`](lexicons/app/bsky/embed/defs#aspectRatio) | ❌  |  |  |
 
 ---
 
@@ -61,7 +61,7 @@ A set of images embedded in a Bluesky record (eg, a post).
 | `thumb` | `string` | ✅  | Fully-qualified URL where a thumbnail of the image can be fetched. For example, CDN location provided by the App View. | Format: `uri` |
 | `fullsize` | `string` | ✅  | Fully-qualified URL where a large version of the image can be fetched. May or may not be the exact original blob. For example, CDN location provided by the App View. | Format: `uri` |
 | `alt` | `string` | ✅  | Alt text description of the image, for accessibility. |  |
-| `aspectRatio` | [`app.bsky.embed.defs#aspectRatio`](/app/bsky/embed/defs#aspectRatio) | ❌  |  |  |
+| `aspectRatio` | [`app.bsky.embed.defs#aspectRatio`](lexicons/app/bsky/embed/defs#aspectRatio) | ❌  |  |  |
 
 ---
 

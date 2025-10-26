@@ -27,7 +27,7 @@ Get details about some repositories.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `repos` | Array of Union of:<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewDetail`](/tools/ozone/moderation/defs#repoViewDetail)<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewNotFound`](/tools/ozone/moderation/defs#repoViewNotFound) | ✅  |  |  |
+| `repos` | Array of Union of:<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewDetail`](lexicons/tools/ozone/moderation/defs#repoViewDetail)<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewNotFound`](lexicons/tools/ozone/moderation/defs#repoViewNotFound) | ✅  |  |  |
 
 ---
 

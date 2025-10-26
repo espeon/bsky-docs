@@ -42,7 +42,7 @@ Query URL safety rules
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  | Next cursor for pagination. Only present if there are more results. |  |
-| `rules` | Array of [`tools.ozone.safelink.defs#urlRule`](/tools/ozone/safelink/defs#urlRule) | ✅  |  |  |
+| `rules` | Array of [`tools.ozone.safelink.defs#urlRule`](lexicons/tools/ozone/safelink/defs#urlRule) | ✅  |  |  |
 
 ---
 

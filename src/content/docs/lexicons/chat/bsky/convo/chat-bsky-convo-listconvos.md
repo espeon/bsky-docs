@@ -29,7 +29,7 @@ description: Reference for the chat.bsky.convo.listConvos lexicon
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `convos` | Array of [`chat.bsky.convo.defs#convoView`](/chat/bsky/convo/defs#convoView) | ✅  |  |  |
+| `convos` | Array of [`chat.bsky.convo.defs#convoView`](lexicons/chat/bsky/convo/defs#convoView) | ✅  |  |  |
 
 ---
 

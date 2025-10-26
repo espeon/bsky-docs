@@ -41,7 +41,7 @@ Backend Posts search, returns only skeleton
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
 | `hitsTotal` | `integer` | ❌  | Count of search hits. Optional, may be rounded/truncated, and may not be possible to paginate through all hits. |  |
-| `posts` | Array of [`app.bsky.unspecced.defs#skeletonSearchPost`](/app/bsky/unspecced/defs#skeletonSearchPost) | ✅  |  |  |
+| `posts` | Array of [`app.bsky.unspecced.defs#skeletonSearchPost`](lexicons/app/bsky/unspecced/defs#skeletonSearchPost) | ✅  |  |  |
 **Possible Errors:**
 
 - `BadQueryString`

@@ -27,7 +27,7 @@ Get information about a feed generator. Implemented by AppView.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `view` | [`app.bsky.feed.defs#generatorView`](/app/bsky/feed/defs#generatorView) | ✅  |  |  |
+| `view` | [`app.bsky.feed.defs#generatorView`](lexicons/app/bsky/feed/defs#generatorView) | ✅  |  |  |
 | `isOnline` | `boolean` | ✅  | Indicates whether the feed generator service has been online recently, or else seems to be inactive. |  |
 | `isValid` | `boolean` | ✅  | Indicates whether the feed generator service is compatible with the record declaration. |  |
 

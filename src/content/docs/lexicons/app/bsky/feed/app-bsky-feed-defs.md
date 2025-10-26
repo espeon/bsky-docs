@@ -17,9 +17,9 @@ description: Reference for the app.bsky.feed.defs lexicon
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
-| `author` | [`app.bsky.actor.defs#profileViewBasic`](/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
+| `author` | [`app.bsky.actor.defs#profileViewBasic`](lexicons/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
 | `record` | `unknown` | ✅  |  |  |
-| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.images#view`](/app/bsky/embed/images#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.video#view`](/app/bsky/embed/video#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.external#view`](/app/bsky/embed/external#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.record#view`](/app/bsky/embed/record#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.recordWithMedia#view`](/app/bsky/embed/recordwithmedia#view) | ❌  |  |  |
+| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.images#view`](lexicons/app/bsky/embed/images#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.video#view`](lexicons/app/bsky/embed/video#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.external#view`](lexicons/app/bsky/embed/external#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.record#view`](lexicons/app/bsky/embed/record#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.recordWithMedia#view`](lexicons/app/bsky/embed/recordwithmedia#view) | ❌  |  |  |
 | `bookmarkCount` | `integer` | ❌  |  |  |
 | `replyCount` | `integer` | ❌  |  |  |
 | `repostCount` | `integer` | ❌  |  |  |
@@ -27,7 +27,7 @@ description: Reference for the app.bsky.feed.defs lexicon
 | `quoteCount` | `integer` | ❌  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
 | `viewer` | [`#viewerState`](#viewerstate) | ❌  |  |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](lexicons/com/atproto/label/defs#label) | ❌  |  |  |
 | `threadgate` | [`#threadgateView`](#threadgateview) | ❌  |  |  |
 
 ---
@@ -96,7 +96,7 @@ Metadata about this post within the context of the thread it is in.
 |------|------|----------|-------------|-------------|
 | `root` | Union of:<br/>&nbsp;&nbsp;[`#postView`](#postview)<br/>&nbsp;&nbsp;[`#notFoundPost`](#notfoundpost)<br/>&nbsp;&nbsp;[`#blockedPost`](#blockedpost) | ✅  |  |  |
 | `parent` | Union of:<br/>&nbsp;&nbsp;[`#postView`](#postview)<br/>&nbsp;&nbsp;[`#notFoundPost`](#notfoundpost)<br/>&nbsp;&nbsp;[`#blockedPost`](#blockedpost) | ✅  |  |  |
-| `grandparentAuthor` | [`app.bsky.actor.defs#profileViewBasic`](/app/bsky/actor/defs#profileViewBasic) | ❌  | When parent is a reply to another post, this is the author of that post. |  |
+| `grandparentAuthor` | [`app.bsky.actor.defs#profileViewBasic`](lexicons/app/bsky/actor/defs#profileViewBasic) | ❌  | When parent is a reply to another post, this is the author of that post. |  |
 
 ---
 
@@ -109,7 +109,7 @@ Metadata about this post within the context of the thread it is in.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `by` | [`app.bsky.actor.defs#profileViewBasic`](/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
+| `by` | [`app.bsky.actor.defs#profileViewBasic`](lexicons/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
 | `uri` | `string` | ❌  |  | Format: `at-uri` |
 | `cid` | `string` | ❌  |  | Format: `cid` |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
@@ -182,7 +182,7 @@ _(No properties defined)_
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `did` | `string` | ✅  |  | Format: `did` |
-| `viewer` | [`app.bsky.actor.defs#viewerState`](/app/bsky/actor/defs#viewerState) | ❌  |  |  |
+| `viewer` | [`app.bsky.actor.defs#viewerState`](lexicons/app/bsky/actor/defs#viewerState) | ❌  |  |  |
 
 ---
 
@@ -198,14 +198,14 @@ _(No properties defined)_
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
 | `did` | `string` | ✅  |  | Format: `did` |
-| `creator` | [`app.bsky.actor.defs#profileView`](/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `creator` | [`app.bsky.actor.defs#profileView`](lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
 | `displayName` | `string` | ✅  |  |  |
 | `description` | `string` | ❌  |  | Max Length: 3000<br/>Max Graphemes: 300 |
-| `descriptionFacets` | Array of [`app.bsky.richtext.facet`](/app/bsky/richtext/facet#undefined) | ❌  |  |  |
+| `descriptionFacets` | Array of [`app.bsky.richtext.facet`](lexicons/app/bsky/richtext/facet#undefined) | ❌  |  |  |
 | `avatar` | `string` | ❌  |  | Format: `uri` |
 | `likeCount` | `integer` | ❌  |  | Min: 0 |
 | `acceptsInteractions` | `boolean` | ❌  |  |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](lexicons/com/atproto/label/defs#label) | ❌  |  |  |
 | `viewer` | [`#generatorViewerState`](#generatorviewerstate) | ❌  |  |  |
 | `contentMode` | `string` | ❌  |  | Known Values: `app.bsky.feed.defs#contentModeUnspecified`, `app.bsky.feed.defs#contentModeVideo` |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
@@ -276,7 +276,7 @@ _(No properties defined)_
 | `uri` | `string` | ❌  |  | Format: `at-uri` |
 | `cid` | `string` | ❌  |  | Format: `cid` |
 | `record` | `unknown` | ❌  |  |  |
-| `lists` | Array of [`app.bsky.graph.defs#listViewBasic`](/app/bsky/graph/defs#listViewBasic) | ❌  |  |  |
+| `lists` | Array of [`app.bsky.graph.defs#listViewBasic`](lexicons/app/bsky/graph/defs#listViewBasic) | ❌  |  |  |
 
 ---
 

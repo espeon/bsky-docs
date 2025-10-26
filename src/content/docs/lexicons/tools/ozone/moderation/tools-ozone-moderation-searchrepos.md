@@ -31,7 +31,7 @@ Find repositories based on a search term.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `repos` | Array of [`tools.ozone.moderation.defs#repoView`](/tools/ozone/moderation/defs#repoView) | ✅  |  |  |
+| `repos` | Array of [`tools.ozone.moderation.defs#repoView`](lexicons/tools/ozone/moderation/defs#repoView) | ✅  |  |  |
 
 ---
 

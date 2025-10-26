@@ -30,7 +30,7 @@ Get a hydrated feed from an actor's selected feed generator. Implemented by App 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `feed` | Array of [`app.bsky.feed.defs#feedViewPost`](/app/bsky/feed/defs#feedViewPost) | ✅  |  |  |
+| `feed` | Array of [`app.bsky.feed.defs#feedViewPost`](lexicons/app/bsky/feed/defs#feedViewPost) | ✅  |  |  |
 **Possible Errors:**
 
 - `UnknownFeed`

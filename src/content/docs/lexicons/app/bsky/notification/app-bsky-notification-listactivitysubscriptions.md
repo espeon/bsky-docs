@@ -29,7 +29,7 @@ Enumerate all accounts to which the requesting account is subscribed to receive 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `subscriptions` | Array of [`app.bsky.actor.defs#profileView`](/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `subscriptions` | Array of [`app.bsky.actor.defs#profileView`](lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
 
 ---
 

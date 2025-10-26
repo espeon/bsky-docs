@@ -30,7 +30,7 @@ Request that the server re-resolve an identity (DID and handle). The server may 
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`com.atproto.identity.defs#identityInfo`](/com/atproto/identity/defs#identityInfo)
+**Schema Type:** [`com.atproto.identity.defs#identityInfo`](lexicons/com/atproto/identity/defs#identityInfo)
 
 
 **Possible Errors:**

@@ -28,7 +28,7 @@ Get whether the requester and the other members can chat. If an existing convo i
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `canChat` | `boolean` | ✅  |  |  |
-| `convo` | [`chat.bsky.convo.defs#convoView`](/chat/bsky/convo/defs#convoView) | ❌  |  |  |
+| `convo` | [`chat.bsky.convo.defs#convoView`](lexicons/chat/bsky/convo/defs#convoView) | ❌  |  |  |
 
 ---
 

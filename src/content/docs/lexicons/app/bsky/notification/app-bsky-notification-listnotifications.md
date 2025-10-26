@@ -49,13 +49,13 @@ Enumerate notifications for the requesting account. Requires auth.
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
-| `author` | [`app.bsky.actor.defs#profileView`](/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `author` | [`app.bsky.actor.defs#profileView`](lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
 | `reason` | `string` | ✅  | The reason why this notification was delivered - e.g. your post was liked, or you received a new follower. | Known Values: `like`, `repost`, `follow`, `mention`, `reply`, `quote`, `starterpack-joined`, `verified`, `unverified`, `like-via-repost`, `repost-via-repost`, `subscribed-post` |
 | `reasonSubject` | `string` | ❌  |  | Format: `at-uri` |
 | `record` | `unknown` | ✅  |  |  |
 | `isRead` | `boolean` | ✅  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
-| `labels` | Array of [`com.atproto.label.defs#label`](/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](lexicons/com/atproto/label/defs#label) | ❌  |  |  |
 
 ---
 

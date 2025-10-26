@@ -27,7 +27,7 @@ Get information about a list of feed generators.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `feeds` | Array of [`app.bsky.feed.defs#generatorView`](/app/bsky/feed/defs#generatorView) | ✅  |  |  |
+| `feeds` | Array of [`app.bsky.feed.defs#generatorView`](lexicons/app/bsky/feed/defs#generatorView) | ✅  |  |  |
 
 ---
 

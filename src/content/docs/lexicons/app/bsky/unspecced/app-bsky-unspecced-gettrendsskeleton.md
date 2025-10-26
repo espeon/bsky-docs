@@ -28,7 +28,7 @@ Get the skeleton of trends on the network. Intended to be called and then hydrat
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `trends` | Array of [`app.bsky.unspecced.defs#skeletonTrend`](/app/bsky/unspecced/defs#skeletonTrend) | ✅  |  |  |
+| `trends` | Array of [`app.bsky.unspecced.defs#skeletonTrend`](lexicons/app/bsky/unspecced/defs#skeletonTrend) | ✅  |  |  |
 
 ---
 

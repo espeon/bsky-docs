@@ -33,7 +33,7 @@ Get a list of reposts for a given post.
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ❌  |  | Format: `cid` |
 | `cursor` | `string` | ❌  |  |  |
-| `repostedBy` | Array of [`app.bsky.actor.defs#profileView`](/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `repostedBy` | Array of [`app.bsky.actor.defs#profileView`](lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
 
 ---
 

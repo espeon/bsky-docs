@@ -19,11 +19,11 @@ A declaration of the existence of labeler service.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `policies` | [`app.bsky.labeler.defs#labelerPolicies`](/app/bsky/labeler/defs#labelerPolicies) | ✅  |  |  |
-| `labels` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.label.defs#selfLabels`](/com/atproto/label/defs#selfLabels) | ❌  |  |  |
+| `policies` | [`app.bsky.labeler.defs#labelerPolicies`](lexicons/app/bsky/labeler/defs#labelerPolicies) | ✅  |  |  |
+| `labels` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.label.defs#selfLabels`](lexicons/com/atproto/label/defs#selfLabels) | ❌  |  |  |
 | `createdAt` | `string` | ✅  |  | Format: `datetime` |
-| `reasonTypes` | Array of [`com.atproto.moderation.defs#reasonType`](/com/atproto/moderation/defs#reasonType) | ❌  | The set of report reason 'codes' which are in-scope for this service to review and action. These usually align to policy categories. If not defined (distinct from empty array), all reason types are allowed. |  |
-| `subjectTypes` | Array of [`com.atproto.moderation.defs#subjectType`](/com/atproto/moderation/defs#subjectType) | ❌  | The set of subject types (account, record, etc) this service accepts reports on. |  |
+| `reasonTypes` | Array of [`com.atproto.moderation.defs#reasonType`](lexicons/com/atproto/moderation/defs#reasonType) | ❌  | The set of report reason 'codes' which are in-scope for this service to review and action. These usually align to policy categories. If not defined (distinct from empty array), all reason types are allowed. |  |
+| `subjectTypes` | Array of [`com.atproto.moderation.defs#subjectType`](lexicons/com/atproto/moderation/defs#subjectType) | ❌  | The set of subject types (account, record, etc) this service accepts reports on. |  |
 | `subjectCollections` | Array of `string` | ❌  | Set of record types (collection NSIDs) which can be reported to this service. If not defined (distinct from empty array), default is any record type. |  |
 
 ---

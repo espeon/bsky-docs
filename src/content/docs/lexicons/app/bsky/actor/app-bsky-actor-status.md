@@ -20,7 +20,7 @@ A declaration of a Bluesky account status.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `status` | `string` | ✅  | The status for the account. | Known Values: `app.bsky.actor.status#live` |
-| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.external`](/app/bsky/embed/external#undefined) | ❌  | An optional embed associated with the status. |  |
+| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.external`](lexicons/app/bsky/embed/external#undefined) | ❌  | An optional embed associated with the status. |  |
 | `durationMinutes` | `integer` | ❌  | The duration of the status in minutes. Applications can choose to impose minimum and maximum limits. | Min: 1 |
 | `createdAt` | `string` | ✅  |  | Format: `datetime` |
 

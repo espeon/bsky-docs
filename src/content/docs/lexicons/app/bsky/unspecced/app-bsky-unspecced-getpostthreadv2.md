@@ -33,7 +33,7 @@ description: Reference for the app.bsky.unspecced.getPostThreadV2 lexicon
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `thread` | Array of [`#threadItem`](#threaditem) | ✅  | A flat list of thread items. The depth of each item is indicated by the depth property inside the item. |  |
-| `threadgate` | [`app.bsky.feed.defs#threadgateView`](/app/bsky/feed/defs#threadgateView) | ❌  |  |  |
+| `threadgate` | [`app.bsky.feed.defs#threadgateView`](lexicons/app/bsky/feed/defs#threadgateView) | ❌  |  |  |
 | `hasOtherReplies` | `boolean` | ✅  | Whether this thread has additional replies. If true, a call can be made to the `getPostThreadOtherV2` endpoint to retrieve them. |  |
 
 ---
@@ -49,7 +49,7 @@ description: Reference for the app.bsky.unspecced.getPostThreadV2 lexicon
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `depth` | `integer` | ✅  | The nesting level of this item in the thread. Depth 0 means the anchor item. Items above have negative depths, items below have positive depths. |  |
-| `value` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.unspecced.defs#threadItemPost`](/app/bsky/unspecced/defs#threadItemPost)<br/>&nbsp;&nbsp;[`app.bsky.unspecced.defs#threadItemNoUnauthenticated`](/app/bsky/unspecced/defs#threadItemNoUnauthenticated)<br/>&nbsp;&nbsp;[`app.bsky.unspecced.defs#threadItemNotFound`](/app/bsky/unspecced/defs#threadItemNotFound)<br/>&nbsp;&nbsp;[`app.bsky.unspecced.defs#threadItemBlocked`](/app/bsky/unspecced/defs#threadItemBlocked) | ✅  |  |  |
+| `value` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.unspecced.defs#threadItemPost`](lexicons/app/bsky/unspecced/defs#threadItemPost)<br/>&nbsp;&nbsp;[`app.bsky.unspecced.defs#threadItemNoUnauthenticated`](lexicons/app/bsky/unspecced/defs#threadItemNoUnauthenticated)<br/>&nbsp;&nbsp;[`app.bsky.unspecced.defs#threadItemNotFound`](lexicons/app/bsky/unspecced/defs#threadItemNotFound)<br/>&nbsp;&nbsp;[`app.bsky.unspecced.defs#threadItemBlocked`](lexicons/app/bsky/unspecced/defs#threadItemBlocked) | ✅  |  |  |
 
 ---
 

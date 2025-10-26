@@ -28,7 +28,7 @@ DEPRECATED: use queryLabels or subscribeLabels instead -- Fetch all labels from 
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `labels` | Array of [`com.atproto.label.defs#label`](/com/atproto/label/defs#label) | ✅  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](lexicons/com/atproto/label/defs#label) | ✅  |  |  |
 
 ---
 

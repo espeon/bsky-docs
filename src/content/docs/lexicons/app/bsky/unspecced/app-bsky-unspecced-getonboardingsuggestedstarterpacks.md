@@ -27,7 +27,7 @@ Get a list of suggested starterpacks for onboarding
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `starterPacks` | Array of [`app.bsky.graph.defs#starterPackView`](/app/bsky/graph/defs#starterPackView) | ✅  |  |  |
+| `starterPacks` | Array of [`app.bsky.graph.defs#starterPackView`](lexicons/app/bsky/graph/defs#starterPackView) | ✅  |  |  |
 
 ---
 

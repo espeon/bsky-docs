@@ -27,7 +27,7 @@ Gets post views for a specified list of posts (by AT-URI). This is sometimes ref
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `posts` | Array of [`app.bsky.feed.defs#postView`](/app/bsky/feed/defs#postView) | ✅  |  |  |
+| `posts` | Array of [`app.bsky.feed.defs#postView`](lexicons/app/bsky/feed/defs#postView) | ✅  |  |  |
 
 ---
 

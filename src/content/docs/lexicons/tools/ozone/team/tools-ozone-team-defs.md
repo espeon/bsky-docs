@@ -17,7 +17,7 @@ description: Reference for the tools.ozone.team.defs lexicon
 |------|------|----------|-------------|-------------|
 | `did` | `string` | ✅  |  | Format: `did` |
 | `disabled` | `boolean` | ❌  |  |  |
-| `profile` | [`app.bsky.actor.defs#profileViewDetailed`](/app/bsky/actor/defs#profileViewDetailed) | ❌  |  |  |
+| `profile` | [`app.bsky.actor.defs#profileViewDetailed`](lexicons/app/bsky/actor/defs#profileViewDetailed) | ❌  |  |  |
 | `createdAt` | `string` | ❌  |  | Format: `datetime` |
 | `updatedAt` | `string` | ❌  |  | Format: `datetime` |
 | `lastUpdatedBy` | `string` | ❌  |  |  |

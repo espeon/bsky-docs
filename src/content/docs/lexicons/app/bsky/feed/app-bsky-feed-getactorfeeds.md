@@ -30,7 +30,7 @@ Get a list of feeds (feed generator records) created by the actor (in the actor'
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `feeds` | Array of [`app.bsky.feed.defs#generatorView`](/app/bsky/feed/defs#generatorView) | ✅  |  |  |
+| `feeds` | Array of [`app.bsky.feed.defs#generatorView`](lexicons/app/bsky/feed/defs#generatorView) | ✅  |  |  |
 
 ---
 

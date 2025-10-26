@@ -30,7 +30,7 @@ Get a view of the requesting account's home timeline. This is expected to be som
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `feed` | Array of [`app.bsky.feed.defs#feedViewPost`](/app/bsky/feed/defs#feedViewPost) | ✅  |  |  |
+| `feed` | Array of [`app.bsky.feed.defs#feedViewPost`](lexicons/app/bsky/feed/defs#feedViewPost) | ✅  |  |  |
 
 ---
 

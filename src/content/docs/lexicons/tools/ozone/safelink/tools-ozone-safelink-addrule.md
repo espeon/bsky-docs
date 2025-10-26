@@ -25,9 +25,9 @@ Add a new URL safety rule
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `url` | `string` | ✅  | The URL or domain to apply the rule to |  |
-| `pattern` | [`tools.ozone.safelink.defs#patternType`](/tools/ozone/safelink/defs#patternType) | ✅  |  |  |
-| `action` | [`tools.ozone.safelink.defs#actionType`](/tools/ozone/safelink/defs#actionType) | ✅  |  |  |
-| `reason` | [`tools.ozone.safelink.defs#reasonType`](/tools/ozone/safelink/defs#reasonType) | ✅  |  |  |
+| `pattern` | [`tools.ozone.safelink.defs#patternType`](lexicons/tools/ozone/safelink/defs#patternType) | ✅  |  |  |
+| `action` | [`tools.ozone.safelink.defs#actionType`](lexicons/tools/ozone/safelink/defs#actionType) | ✅  |  |  |
+| `reason` | [`tools.ozone.safelink.defs#reasonType`](lexicons/tools/ozone/safelink/defs#reasonType) | ✅  |  |  |
 | `comment` | `string` | ❌  | Optional comment about the decision |  |
 | `createdBy` | `string` | ❌  | Author DID. Only respected when using admin auth | Format: `did` |
 **Output:**
@@ -35,7 +35,7 @@ Add a new URL safety rule
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`tools.ozone.safelink.defs#event`](/tools/ozone/safelink/defs#event)
+**Schema Type:** [`tools.ozone.safelink.defs#event`](lexicons/tools/ozone/safelink/defs#event)
 
 
 **Possible Errors:**

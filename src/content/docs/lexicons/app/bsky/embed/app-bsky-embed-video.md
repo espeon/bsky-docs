@@ -20,7 +20,7 @@ A video embedded in a Bluesky record (eg, a post).
 | `video` | `blob` | ✅  | The mp4 video file. May be up to 100mb, formerly limited to 50mb. | Accept: `video/mp4`<br/>Max Size: 100000000 bytes |
 | `captions` | Array of [`#caption`](#caption) | ❌  |  | Max Items: 20 |
 | `alt` | `string` | ❌  | Alt text description of the video, for accessibility. | Max Length: 10000<br/>Max Graphemes: 1000 |
-| `aspectRatio` | [`app.bsky.embed.defs#aspectRatio`](/app/bsky/embed/defs#aspectRatio) | ❌  |  |  |
+| `aspectRatio` | [`app.bsky.embed.defs#aspectRatio`](lexicons/app/bsky/embed/defs#aspectRatio) | ❌  |  |  |
 
 ---
 
@@ -51,7 +51,7 @@ A video embedded in a Bluesky record (eg, a post).
 | `playlist` | `string` | ✅  |  | Format: `uri` |
 | `thumbnail` | `string` | ❌  |  | Format: `uri` |
 | `alt` | `string` | ❌  |  | Max Length: 10000<br/>Max Graphemes: 1000 |
-| `aspectRatio` | [`app.bsky.embed.defs#aspectRatio`](/app/bsky/embed/defs#aspectRatio) | ❌  |  |  |
+| `aspectRatio` | [`app.bsky.embed.defs#aspectRatio`](lexicons/app/bsky/embed/defs#aspectRatio) | ❌  |  |  |
 
 ---
 
