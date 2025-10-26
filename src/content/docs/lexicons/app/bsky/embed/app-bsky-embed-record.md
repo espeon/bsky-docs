@@ -17,7 +17,7 @@ A representation of a record embedded in a Bluesky record (eg, a post). For exam
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `record` | [`com.atproto.repo.strongRef`](lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
+| `record` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
 
 ---
 
@@ -30,7 +30,7 @@ A representation of a record embedded in a Bluesky record (eg, a post). For exam
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `record` | Union of:<br/>&nbsp;&nbsp;[`#viewRecord`](#viewrecord)<br/>&nbsp;&nbsp;[`#viewNotFound`](#viewnotfound)<br/>&nbsp;&nbsp;[`#viewBlocked`](#viewblocked)<br/>&nbsp;&nbsp;[`#viewDetached`](#viewdetached)<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#generatorView`](lexicons/app/bsky/feed/defs#generatorView)<br/>&nbsp;&nbsp;[`app.bsky.graph.defs#listView`](lexicons/app/bsky/graph/defs#listView)<br/>&nbsp;&nbsp;[`app.bsky.labeler.defs#labelerView`](lexicons/app/bsky/labeler/defs#labelerView)<br/>&nbsp;&nbsp;[`app.bsky.graph.defs#starterPackViewBasic`](lexicons/app/bsky/graph/defs#starterPackViewBasic) | ✅  |  |  |
+| `record` | Union of:<br/>&nbsp;&nbsp;[`#viewRecord`](#viewrecord)<br/>&nbsp;&nbsp;[`#viewNotFound`](#viewnotfound)<br/>&nbsp;&nbsp;[`#viewBlocked`](#viewblocked)<br/>&nbsp;&nbsp;[`#viewDetached`](#viewdetached)<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#generatorView`](/lexicons/app/bsky/feed/defs#generatorView)<br/>&nbsp;&nbsp;[`app.bsky.graph.defs#listView`](/lexicons/app/bsky/graph/defs#listView)<br/>&nbsp;&nbsp;[`app.bsky.labeler.defs#labelerView`](/lexicons/app/bsky/labeler/defs#labelerView)<br/>&nbsp;&nbsp;[`app.bsky.graph.defs#starterPackViewBasic`](/lexicons/app/bsky/graph/defs#starterPackViewBasic) | ✅  |  |  |
 
 ---
 
@@ -45,14 +45,14 @@ A representation of a record embedded in a Bluesky record (eg, a post). For exam
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
-| `author` | [`app.bsky.actor.defs#profileViewBasic`](lexicons/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
+| `author` | [`app.bsky.actor.defs#profileViewBasic`](/lexicons/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
 | `value` | `unknown` | ✅  | The record data itself. |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
 | `replyCount` | `integer` | ❌  |  |  |
 | `repostCount` | `integer` | ❌  |  |  |
 | `likeCount` | `integer` | ❌  |  |  |
 | `quoteCount` | `integer` | ❌  |  |  |
-| `embeds` | Array of Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.images#view`](lexicons/app/bsky/embed/images#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.video#view`](lexicons/app/bsky/embed/video#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.external#view`](lexicons/app/bsky/embed/external#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.record#view`](lexicons/app/bsky/embed/record#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.recordWithMedia#view`](lexicons/app/bsky/embed/recordwithmedia#view) | ❌  |  |  |
+| `embeds` | Array of Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.images#view`](/lexicons/app/bsky/embed/images#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.video#view`](/lexicons/app/bsky/embed/video#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.external#view`](/lexicons/app/bsky/embed/external#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.record#view`](/lexicons/app/bsky/embed/record#view)<br/>&nbsp;&nbsp;[`app.bsky.embed.recordWithMedia#view`](/lexicons/app/bsky/embed/recordwithmedia#view) | ❌  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
 
 ---
@@ -82,7 +82,7 @@ A representation of a record embedded in a Bluesky record (eg, a post). For exam
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `blocked` | `boolean` | ✅  |  | Const: `true` |
-| `author` | [`app.bsky.feed.defs#blockedAuthor`](lexicons/app/bsky/feed/defs#blockedAuthor) | ✅  |  |  |
+| `author` | [`app.bsky.feed.defs#blockedAuthor`](/lexicons/app/bsky/feed/defs#blockedAuthor) | ✅  |  |  |
 
 ---
 

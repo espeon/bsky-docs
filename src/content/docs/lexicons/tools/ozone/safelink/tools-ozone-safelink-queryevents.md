@@ -39,7 +39,7 @@ Query URL safety audit events
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  | Next cursor for pagination. Only present if there are more results. |  |
-| `events` | Array of [`tools.ozone.safelink.defs#event`](lexicons/tools/ozone/safelink/defs#event) | ✅  |  |  |
+| `events` | Array of [`tools.ozone.safelink.defs#event`](/lexicons/tools/ozone/safelink/defs#event) | ✅  |  |  |
 
 ---
 

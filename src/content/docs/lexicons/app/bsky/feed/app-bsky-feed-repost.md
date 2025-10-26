@@ -19,9 +19,9 @@ Record representing a 'repost' of an existing Bluesky post.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `subject` | [`com.atproto.repo.strongRef`](lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
+| `subject` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
 | `createdAt` | `string` | ✅  |  | Format: `datetime` |
-| `via` | [`com.atproto.repo.strongRef`](lexicons/com/atproto/repo/strongref#undefined) | ❌  |  |  |
+| `via` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ❌  |  |  |
 
 ---
 

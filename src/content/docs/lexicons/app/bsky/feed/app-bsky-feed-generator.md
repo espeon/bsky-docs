@@ -22,10 +22,10 @@ Record declaring of the existence of a feed generator, and containing metadata a
 | `did` | `string` | ✅  |  | Format: `did` |
 | `displayName` | `string` | ✅  |  | Max Length: 240<br/>Max Graphemes: 24 |
 | `description` | `string` | ❌  |  | Max Length: 3000<br/>Max Graphemes: 300 |
-| `descriptionFacets` | Array of [`app.bsky.richtext.facet`](lexicons/app/bsky/richtext/facet#undefined) | ❌  |  |  |
+| `descriptionFacets` | Array of [`app.bsky.richtext.facet`](/lexicons/app/bsky/richtext/facet#undefined) | ❌  |  |  |
 | `avatar` | `blob` | ❌  |  | Accept: `image/png`, `image/jpeg`<br/>Max Size: 1000000 bytes |
 | `acceptsInteractions` | `boolean` | ❌  | Declaration that a feed accepts feedback interactions from a client through app.bsky.feed.sendInteractions |  |
-| `labels` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.label.defs#selfLabels`](lexicons/com/atproto/label/defs#selfLabels) | ❌  | Self-label values |  |
+| `labels` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.label.defs#selfLabels`](/lexicons/com/atproto/label/defs#selfLabels) | ❌  | Self-label values |  |
 | `contentMode` | `string` | ❌  |  | Known Values: `app.bsky.feed.defs#contentModeUnspecified`, `app.bsky.feed.defs#contentModeVideo` |
 | `createdAt` | `string` | ✅  |  | Format: `datetime` |
 

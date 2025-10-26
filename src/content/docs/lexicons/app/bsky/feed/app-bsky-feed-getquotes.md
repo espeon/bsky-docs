@@ -33,7 +33,7 @@ Get a list of quotes for a given post.
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ❌  |  | Format: `cid` |
 | `cursor` | `string` | ❌  |  |  |
-| `posts` | Array of [`app.bsky.feed.defs#postView`](lexicons/app/bsky/feed/defs#postView) | ✅  |  |  |
+| `posts` | Array of [`app.bsky.feed.defs#postView`](/lexicons/app/bsky/feed/defs#postView) | ✅  |  |  |
 
 ---
 

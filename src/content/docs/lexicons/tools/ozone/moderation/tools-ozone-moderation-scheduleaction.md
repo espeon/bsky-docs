@@ -28,7 +28,7 @@ Schedule a moderation action to be executed at a future time
 | `subjects` | Array of `string` | ✅  | Array of DID subjects to schedule the action for | Max Items: 100 |
 | `createdBy` | `string` | ✅  |  | Format: `did` |
 | `scheduling` | [`#schedulingConfig`](#schedulingconfig) | ✅  |  |  |
-| `modTool` | [`tools.ozone.moderation.defs#modTool`](lexicons/tools/ozone/moderation/defs#modTool) | ❌  | This will be propagated to the moderation event when it is applied |  |
+| `modTool` | [`tools.ozone.moderation.defs#modTool`](/lexicons/tools/ozone/moderation/defs#modTool) | ❌  | This will be propagated to the moderation event when it is applied |  |
 **Output:**
 
 - **Encoding:** `application/json`

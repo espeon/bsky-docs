@@ -27,7 +27,7 @@ Get a list of suggested feeds
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `feeds` | Array of [`app.bsky.feed.defs#generatorView`](lexicons/app/bsky/feed/defs#generatorView) | ✅  |  |  |
+| `feeds` | Array of [`app.bsky.feed.defs#generatorView`](/lexicons/app/bsky/feed/defs#generatorView) | ✅  |  |  |
 
 ---
 

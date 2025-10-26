@@ -29,7 +29,7 @@ Enumerates mod lists that the requesting account (actor) currently has muted. Re
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `lists` | Array of [`app.bsky.graph.defs#listView`](lexicons/app/bsky/graph/defs#listView) | ✅  |  |  |
+| `lists` | Array of [`app.bsky.graph.defs#listView`](/lexicons/app/bsky/graph/defs#listView) | ✅  |  |  |
 
 ---
 

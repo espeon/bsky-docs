@@ -30,7 +30,7 @@ Get list of accounts that matches your search query.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `accounts` | Array of [`com.atproto.admin.defs#accountView`](lexicons/com/atproto/admin/defs#accountView) | ✅  |  |  |
+| `accounts` | Array of [`com.atproto.admin.defs#accountView`](/lexicons/com/atproto/admin/defs#accountView) | ✅  |  |  |
 
 ---
 

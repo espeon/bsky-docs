@@ -31,7 +31,7 @@ Get a skeleton of suggested actors. Intended to be called and then hydrated thro
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `actors` | Array of [`app.bsky.unspecced.defs#skeletonSearchActor`](lexicons/app/bsky/unspecced/defs#skeletonSearchActor) | ✅  |  |  |
+| `actors` | Array of [`app.bsky.unspecced.defs#skeletonSearchActor`](/lexicons/app/bsky/unspecced/defs#skeletonSearchActor) | ✅  |  |  |
 | `relativeToDid` | `string` | ❌  | DID of the account these suggestions are relative to. If this is returned undefined, suggestions are based on the viewer. | Format: `did` |
 | `recId` | `integer` | ❌  | Snowflake for this recommendation, use when submitting recommendation events. |  |
 

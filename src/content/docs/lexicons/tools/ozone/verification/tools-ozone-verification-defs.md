@@ -28,8 +28,8 @@ Verification data for the associated subject.
 | `revokedBy` | `string` | ❌  | The user who revoked this verification. | Format: `did` |
 | `subjectProfile` | Union of:<br/>&nbsp;&nbsp; | ❌  |  |  |
 | `issuerProfile` | Union of:<br/>&nbsp;&nbsp; | ❌  |  |  |
-| `subjectRepo` | Union of:<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewDetail`](lexicons/tools/ozone/moderation/defs#repoViewDetail)<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewNotFound`](lexicons/tools/ozone/moderation/defs#repoViewNotFound) | ❌  |  |  |
-| `issuerRepo` | Union of:<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewDetail`](lexicons/tools/ozone/moderation/defs#repoViewDetail)<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewNotFound`](lexicons/tools/ozone/moderation/defs#repoViewNotFound) | ❌  |  |  |
+| `subjectRepo` | Union of:<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewDetail`](/lexicons/tools/ozone/moderation/defs#repoViewDetail)<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewNotFound`](/lexicons/tools/ozone/moderation/defs#repoViewNotFound) | ❌  |  |  |
+| `issuerRepo` | Union of:<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewDetail`](/lexicons/tools/ozone/moderation/defs#repoViewDetail)<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#repoViewNotFound`](/lexicons/tools/ozone/moderation/defs#repoViewNotFound) | ❌  |  |  |
 
 ---
 

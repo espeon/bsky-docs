@@ -17,7 +17,7 @@ description: Reference for the tools.ozone.moderation.defs lexicon
 |------|------|----------|-------------|-------------|
 | `id` | `integer` | ✅  |  |  |
 | `event` | Union of:<br/>&nbsp;&nbsp;[`#modEventTakedown`](#modeventtakedown)<br/>&nbsp;&nbsp;[`#modEventReverseTakedown`](#modeventreversetakedown)<br/>&nbsp;&nbsp;[`#modEventComment`](#modeventcomment)<br/>&nbsp;&nbsp;[`#modEventReport`](#modeventreport)<br/>&nbsp;&nbsp;[`#modEventLabel`](#modeventlabel)<br/>&nbsp;&nbsp;[`#modEventAcknowledge`](#modeventacknowledge)<br/>&nbsp;&nbsp;[`#modEventEscalate`](#modeventescalate)<br/>&nbsp;&nbsp;[`#modEventMute`](#modeventmute)<br/>&nbsp;&nbsp;[`#modEventUnmute`](#modeventunmute)<br/>&nbsp;&nbsp;[`#modEventMuteReporter`](#modeventmutereporter)<br/>&nbsp;&nbsp;[`#modEventUnmuteReporter`](#modeventunmutereporter)<br/>&nbsp;&nbsp;[`#modEventEmail`](#modeventemail)<br/>&nbsp;&nbsp;[`#modEventResolveAppeal`](#modeventresolveappeal)<br/>&nbsp;&nbsp;[`#modEventDivert`](#modeventdivert)<br/>&nbsp;&nbsp;[`#modEventTag`](#modeventtag)<br/>&nbsp;&nbsp;[`#accountEvent`](#accountevent)<br/>&nbsp;&nbsp;[`#identityEvent`](#identityevent)<br/>&nbsp;&nbsp;[`#recordEvent`](#recordevent)<br/>&nbsp;&nbsp;[`#modEventPriorityScore`](#modeventpriorityscore)<br/>&nbsp;&nbsp;[`#ageAssuranceEvent`](#ageassuranceevent)<br/>&nbsp;&nbsp;[`#ageAssuranceOverrideEvent`](#ageassuranceoverrideevent)<br/>&nbsp;&nbsp;[`#revokeAccountCredentialsEvent`](#revokeaccountcredentialsevent)<br/>&nbsp;&nbsp;[`#scheduleTakedownEvent`](#scheduletakedownevent)<br/>&nbsp;&nbsp;[`#cancelScheduledTakedownEvent`](#cancelscheduledtakedownevent) | ✅  |  |  |
-| `subject` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoRef`](lexicons/com/atproto/admin/defs#repoRef)<br/>&nbsp;&nbsp;[`com.atproto.repo.strongRef`](lexicons/com/atproto/repo/strongref#undefined)<br/>&nbsp;&nbsp;[`chat.bsky.convo.defs#messageRef`](lexicons/chat/bsky/convo/defs#messageRef) | ✅  |  |  |
+| `subject` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoRef`](/lexicons/com/atproto/admin/defs#repoRef)<br/>&nbsp;&nbsp;[`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined)<br/>&nbsp;&nbsp;[`chat.bsky.convo.defs#messageRef`](/lexicons/chat/bsky/convo/defs#messageRef) | ✅  |  |  |
 | `subjectBlobCids` | Array of `string` | ✅  |  |  |
 | `createdBy` | `string` | ✅  |  | Format: `did` |
 | `createdAt` | `string` | ✅  |  | Format: `datetime` |
@@ -56,7 +56,7 @@ description: Reference for the tools.ozone.moderation.defs lexicon
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `id` | `integer` | ✅  |  |  |
-| `subject` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoRef`](lexicons/com/atproto/admin/defs#repoRef)<br/>&nbsp;&nbsp;[`com.atproto.repo.strongRef`](lexicons/com/atproto/repo/strongref#undefined)<br/>&nbsp;&nbsp;[`chat.bsky.convo.defs#messageRef`](lexicons/chat/bsky/convo/defs#messageRef) | ✅  |  |  |
+| `subject` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoRef`](/lexicons/com/atproto/admin/defs#repoRef)<br/>&nbsp;&nbsp;[`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined)<br/>&nbsp;&nbsp;[`chat.bsky.convo.defs#messageRef`](/lexicons/chat/bsky/convo/defs#messageRef) | ✅  |  |  |
 | `hosting` | Union of:<br/>&nbsp;&nbsp;[`#accountHosting`](#accounthosting)<br/>&nbsp;&nbsp;[`#recordHosting`](#recordhosting) | ❌  |  |  |
 | `subjectBlobCids` | Array of `string` | ❌  |  |  |
 | `subjectRepoHandle` | `string` | ❌  |  |  |
@@ -93,7 +93,7 @@ Detailed view of a subject. For record subjects, the author's repo and profile w
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `type` | [`com.atproto.moderation.defs#subjectType`](lexicons/com/atproto/moderation/defs#subjectType) | ✅  |  |  |
+| `type` | [`com.atproto.moderation.defs#subjectType`](/lexicons/com/atproto/moderation/defs#subjectType) | ✅  |  |  |
 | `subject` | `string` | ✅  |  |  |
 | `status` | [`#subjectStatusView`](#subjectstatusview) | ❌  |  |  |
 | `repo` | [`#repoViewDetail`](#repoviewdetail) | ❌  |  |  |
@@ -270,7 +270,7 @@ Report a subject
 |------|------|----------|-------------|-------------|
 | `comment` | `string` | ❌  |  |  |
 | `isReporterMuted` | `boolean` | ❌  | Set to true if the reporter was muted from reporting at the time of the event. These reports won't impact the reviewState of the subject. |  |
-| `reportType` | [`com.atproto.moderation.defs#reasonType`](lexicons/com/atproto/moderation/defs#reasonType) | ✅  |  |  |
+| `reportType` | [`com.atproto.moderation.defs#reasonType`](/lexicons/com/atproto/moderation/defs#reasonType) | ✅  |  |  |
 
 ---
 
@@ -601,11 +601,11 @@ Logs cancellation of a scheduled takedown action for an account.
 | `relatedRecords` | Array of `unknown` | ✅  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
 | `moderation` | [`#moderation`](#moderation) | ✅  |  |  |
-| `invitedBy` | [`com.atproto.server.defs#inviteCode`](lexicons/com/atproto/server/defs#inviteCode) | ❌  |  |  |
+| `invitedBy` | [`com.atproto.server.defs#inviteCode`](/lexicons/com/atproto/server/defs#inviteCode) | ❌  |  |  |
 | `invitesDisabled` | `boolean` | ❌  |  |  |
 | `inviteNote` | `string` | ❌  |  |  |
 | `deactivatedAt` | `string` | ❌  |  | Format: `datetime` |
-| `threatSignatures` | Array of [`com.atproto.admin.defs#threatSignature`](lexicons/com/atproto/admin/defs#threatSignature) | ❌  |  |  |
+| `threatSignatures` | Array of [`com.atproto.admin.defs#threatSignature`](/lexicons/com/atproto/admin/defs#threatSignature) | ❌  |  |  |
 
 ---
 
@@ -624,14 +624,14 @@ Logs cancellation of a scheduled takedown action for an account.
 | `relatedRecords` | Array of `unknown` | ✅  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
 | `moderation` | [`#moderationDetail`](#moderationdetail) | ✅  |  |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](lexicons/com/atproto/label/defs#label) | ❌  |  |  |
-| `invitedBy` | [`com.atproto.server.defs#inviteCode`](lexicons/com/atproto/server/defs#inviteCode) | ❌  |  |  |
-| `invites` | Array of [`com.atproto.server.defs#inviteCode`](lexicons/com/atproto/server/defs#inviteCode) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `invitedBy` | [`com.atproto.server.defs#inviteCode`](/lexicons/com/atproto/server/defs#inviteCode) | ❌  |  |  |
+| `invites` | Array of [`com.atproto.server.defs#inviteCode`](/lexicons/com/atproto/server/defs#inviteCode) | ❌  |  |  |
 | `invitesDisabled` | `boolean` | ❌  |  |  |
 | `inviteNote` | `string` | ❌  |  |  |
 | `emailConfirmedAt` | `string` | ❌  |  | Format: `datetime` |
 | `deactivatedAt` | `string` | ❌  |  | Format: `datetime` |
-| `threatSignatures` | Array of [`com.atproto.admin.defs#threatSignature`](lexicons/com/atproto/admin/defs#threatSignature) | ❌  |  |  |
+| `threatSignatures` | Array of [`com.atproto.admin.defs#threatSignature`](/lexicons/com/atproto/admin/defs#threatSignature) | ❌  |  |  |
 
 ---
 
@@ -680,7 +680,7 @@ Logs cancellation of a scheduled takedown action for an account.
 | `cid` | `string` | ✅  |  | Format: `cid` |
 | `value` | `unknown` | ✅  |  |  |
 | `blobs` | Array of [`#blobView`](#blobview) | ✅  |  |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
 | `moderation` | [`#moderationDetail`](#moderationdetail) | ✅  |  |  |
 | `repo` | [`#repoView`](#repoview) | ✅  |  |  |

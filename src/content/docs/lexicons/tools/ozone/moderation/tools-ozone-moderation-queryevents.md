@@ -49,7 +49,7 @@ List moderation events related to a subject.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `events` | Array of [`tools.ozone.moderation.defs#modEventView`](lexicons/tools/ozone/moderation/defs#modEventView) | ✅  |  |  |
+| `events` | Array of [`tools.ozone.moderation.defs#modEventView`](/lexicons/tools/ozone/moderation/defs#modEventView) | ✅  |  |  |
 
 ---
 

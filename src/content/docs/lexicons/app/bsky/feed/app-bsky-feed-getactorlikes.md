@@ -30,7 +30,7 @@ Get a list of posts liked by an actor. Requires auth, actor must be the requesti
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `feed` | Array of [`app.bsky.feed.defs#feedViewPost`](lexicons/app/bsky/feed/defs#feedViewPost) | ✅  |  |  |
+| `feed` | Array of [`app.bsky.feed.defs#feedViewPost`](/lexicons/app/bsky/feed/defs#feedViewPost) | ✅  |  |  |
 **Possible Errors:**
 
 - `BlockedActor`

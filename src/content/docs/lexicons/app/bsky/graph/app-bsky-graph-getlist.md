@@ -30,8 +30,8 @@ Gets a 'view' (with additional context) of a specified list.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `list` | [`app.bsky.graph.defs#listView`](lexicons/app/bsky/graph/defs#listView) | ✅  |  |  |
-| `items` | Array of [`app.bsky.graph.defs#listItemView`](lexicons/app/bsky/graph/defs#listItemView) | ✅  |  |  |
+| `list` | [`app.bsky.graph.defs#listView`](/lexicons/app/bsky/graph/defs#listView) | ✅  |  |  |
+| `items` | Array of [`app.bsky.graph.defs#listItemView`](/lexicons/app/bsky/graph/defs#listItemView) | ✅  |  |  |
 
 ---
 

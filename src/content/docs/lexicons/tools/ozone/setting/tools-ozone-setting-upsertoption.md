@@ -38,7 +38,7 @@ Create or update setting option
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `option` | [`tools.ozone.setting.defs#option`](lexicons/tools/ozone/setting/defs#option) | ✅  |  |  |
+| `option` | [`tools.ozone.setting.defs#option`](/lexicons/tools/ozone/setting/defs#option) | ✅  |  |  |
 
 ---
 

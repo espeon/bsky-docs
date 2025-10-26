@@ -30,7 +30,7 @@ Search for accounts that match one or more threat signature values.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `accounts` | Array of [`com.atproto.admin.defs#accountView`](lexicons/com/atproto/admin/defs#accountView) | ✅  |  |  |
+| `accounts` | Array of [`com.atproto.admin.defs#accountView`](/lexicons/com/atproto/admin/defs#accountView) | ✅  |  |  |
 
 ---
 

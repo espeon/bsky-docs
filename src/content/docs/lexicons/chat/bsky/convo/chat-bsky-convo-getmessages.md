@@ -28,7 +28,7 @@ description: Reference for the chat.bsky.convo.getMessages lexicon
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `messages` | Array of Union of:<br/>&nbsp;&nbsp;[`chat.bsky.convo.defs#messageView`](lexicons/chat/bsky/convo/defs#messageView)<br/>&nbsp;&nbsp;[`chat.bsky.convo.defs#deletedMessageView`](lexicons/chat/bsky/convo/defs#deletedMessageView) | ✅  |  |  |
+| `messages` | Array of Union of:<br/>&nbsp;&nbsp;[`chat.bsky.convo.defs#messageView`](/lexicons/chat/bsky/convo/defs#messageView)<br/>&nbsp;&nbsp;[`chat.bsky.convo.defs#deletedMessageView`](/lexicons/chat/bsky/convo/defs#deletedMessageView) | ✅  |  |  |
 
 ---
 

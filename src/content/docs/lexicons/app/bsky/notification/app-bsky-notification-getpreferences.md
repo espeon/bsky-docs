@@ -24,7 +24,7 @@ Get notification-related preferences for an account. Requires auth.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `preferences` | [`app.bsky.notification.defs#preferences`](lexicons/app/bsky/notification/defs#preferences) | ✅  |  |  |
+| `preferences` | [`app.bsky.notification.defs#preferences`](/lexicons/app/bsky/notification/defs#preferences) | ✅  |  |  |
 
 ---
 

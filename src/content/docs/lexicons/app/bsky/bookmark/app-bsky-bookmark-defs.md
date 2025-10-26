@@ -17,7 +17,7 @@ Object used to store bookmark data in stash.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `subject` | [`com.atproto.repo.strongRef`](lexicons/com/atproto/repo/strongref#undefined) | ✅  | A strong ref to the record to be bookmarked. Currently, only `app.bsky.feed.post` records are supported. |  |
+| `subject` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ✅  | A strong ref to the record to be bookmarked. Currently, only `app.bsky.feed.post` records are supported. |  |
 
 ---
 
@@ -30,9 +30,9 @@ Object used to store bookmark data in stash.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `subject` | [`com.atproto.repo.strongRef`](lexicons/com/atproto/repo/strongref#undefined) | ✅  | A strong ref to the bookmarked record. |  |
+| `subject` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ✅  | A strong ref to the bookmarked record. |  |
 | `createdAt` | `string` | ❌  |  | Format: `datetime` |
-| `item` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#blockedPost`](lexicons/app/bsky/feed/defs#blockedPost)<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#notFoundPost`](lexicons/app/bsky/feed/defs#notFoundPost)<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#postView`](lexicons/app/bsky/feed/defs#postView) | ✅  |  |  |
+| `item` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#blockedPost`](/lexicons/app/bsky/feed/defs#blockedPost)<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#notFoundPost`](/lexicons/app/bsky/feed/defs#notFoundPost)<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#postView`](/lexicons/app/bsky/feed/defs#postView) | ✅  |  |  |
 
 ---
 

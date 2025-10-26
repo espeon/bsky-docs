@@ -29,7 +29,7 @@ Get a list of suggested actors. Expected use is discovery of accounts to follow 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `actors` | Array of [`app.bsky.actor.defs#profileView`](lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `actors` | Array of [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
 | `recId` | `integer` | ❌  | Snowflake for this recommendation, use when submitting recommendation events. |  |
 
 ---

@@ -37,7 +37,7 @@ Apply a batch transaction of repository creates, updates, and deletes. Requires 
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `commit` | [`com.atproto.repo.defs#commitMeta`](lexicons/com/atproto/repo/defs#commitMeta) | ❌  |  |  |
+| `commit` | [`com.atproto.repo.defs#commitMeta`](/lexicons/com/atproto/repo/defs#commitMeta) | ❌  |  |  |
 | `results` | Array of Union of:<br/>&nbsp;&nbsp;[`#createResult`](#createresult)<br/>&nbsp;&nbsp;[`#updateResult`](#updateresult)<br/>&nbsp;&nbsp;[`#deleteResult`](#deleteresult) | ❌  |  |  |
 **Possible Errors:**
 

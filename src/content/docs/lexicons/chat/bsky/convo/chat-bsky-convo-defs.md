@@ -31,8 +31,8 @@ description: Reference for the chat.bsky.convo.defs lexicon
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `text` | `string` | ✅  |  | Max Length: 10000<br/>Max Graphemes: 1000 |
-| `facets` | Array of [`app.bsky.richtext.facet`](lexicons/app/bsky/richtext/facet#undefined) | ❌  | Annotations of text (mentions, URLs, hashtags, etc) |  |
-| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.record`](lexicons/app/bsky/embed/record#undefined) | ❌  |  |  |
+| `facets` | Array of [`app.bsky.richtext.facet`](/lexicons/app/bsky/richtext/facet#undefined) | ❌  | Annotations of text (mentions, URLs, hashtags, etc) |  |
+| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.record`](/lexicons/app/bsky/embed/record#undefined) | ❌  |  |  |
 
 ---
 
@@ -48,8 +48,8 @@ description: Reference for the chat.bsky.convo.defs lexicon
 | `id` | `string` | ✅  |  |  |
 | `rev` | `string` | ✅  |  |  |
 | `text` | `string` | ✅  |  | Max Length: 10000<br/>Max Graphemes: 1000 |
-| `facets` | Array of [`app.bsky.richtext.facet`](lexicons/app/bsky/richtext/facet#undefined) | ❌  | Annotations of text (mentions, URLs, hashtags, etc) |  |
-| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.record#view`](lexicons/app/bsky/embed/record#view) | ❌  |  |  |
+| `facets` | Array of [`app.bsky.richtext.facet`](/lexicons/app/bsky/richtext/facet#undefined) | ❌  | Annotations of text (mentions, URLs, hashtags, etc) |  |
+| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.record#view`](/lexicons/app/bsky/embed/record#view) | ❌  |  |  |
 | `reactions` | Array of [`#reactionView`](#reactionview) | ❌  | Reactions to this message, in ascending order of creation time. |  |
 | `sender` | [`#messageViewSender`](#messageviewsender) | ✅  |  |  |
 | `sentAt` | `string` | ✅  |  | Format: `datetime` |
@@ -138,7 +138,7 @@ description: Reference for the chat.bsky.convo.defs lexicon
 |------|------|----------|-------------|-------------|
 | `id` | `string` | ✅  |  |  |
 | `rev` | `string` | ✅  |  |  |
-| `members` | Array of [`chat.bsky.actor.defs#profileViewBasic`](lexicons/chat/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
+| `members` | Array of [`chat.bsky.actor.defs#profileViewBasic`](/lexicons/chat/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
 | `lastMessage` | Union of:<br/>&nbsp;&nbsp;[`#messageView`](#messageview)<br/>&nbsp;&nbsp;[`#deletedMessageView`](#deletedmessageview) | ❌  |  |  |
 | `lastReaction` | Union of:<br/>&nbsp;&nbsp;[`#messageAndReactionView`](#messageandreactionview) | ❌  |  |  |
 | `muted` | `boolean` | ✅  |  |  |

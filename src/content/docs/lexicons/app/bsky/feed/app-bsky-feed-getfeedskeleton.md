@@ -30,7 +30,7 @@ Get a skeleton of a feed provided by a feed generator. Auth is optional, dependi
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `feed` | Array of [`app.bsky.feed.defs#skeletonFeedPost`](lexicons/app/bsky/feed/defs#skeletonFeedPost) | ✅  |  |  |
+| `feed` | Array of [`app.bsky.feed.defs#skeletonFeedPost`](/lexicons/app/bsky/feed/defs#skeletonFeedPost) | ✅  |  |  |
 | `reqId` | `string` | ❌  | Unique identifier per request that may be passed back alongside interactions. | Max Length: 100 |
 **Possible Errors:**
 

@@ -24,19 +24,19 @@ Set notification-related preferences for an account. Requires auth.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `chat` | [`app.bsky.notification.defs#chatPreference`](lexicons/app/bsky/notification/defs#chatPreference) | ❌  |  |  |
-| `follow` | [`app.bsky.notification.defs#filterablePreference`](lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
-| `like` | [`app.bsky.notification.defs#filterablePreference`](lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
-| `likeViaRepost` | [`app.bsky.notification.defs#filterablePreference`](lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
-| `mention` | [`app.bsky.notification.defs#filterablePreference`](lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
-| `quote` | [`app.bsky.notification.defs#filterablePreference`](lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
-| `reply` | [`app.bsky.notification.defs#filterablePreference`](lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
-| `repost` | [`app.bsky.notification.defs#filterablePreference`](lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
-| `repostViaRepost` | [`app.bsky.notification.defs#filterablePreference`](lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
-| `starterpackJoined` | [`app.bsky.notification.defs#preference`](lexicons/app/bsky/notification/defs#preference) | ❌  |  |  |
-| `subscribedPost` | [`app.bsky.notification.defs#preference`](lexicons/app/bsky/notification/defs#preference) | ❌  |  |  |
-| `unverified` | [`app.bsky.notification.defs#preference`](lexicons/app/bsky/notification/defs#preference) | ❌  |  |  |
-| `verified` | [`app.bsky.notification.defs#preference`](lexicons/app/bsky/notification/defs#preference) | ❌  |  |  |
+| `chat` | [`app.bsky.notification.defs#chatPreference`](/lexicons/app/bsky/notification/defs#chatPreference) | ❌  |  |  |
+| `follow` | [`app.bsky.notification.defs#filterablePreference`](/lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
+| `like` | [`app.bsky.notification.defs#filterablePreference`](/lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
+| `likeViaRepost` | [`app.bsky.notification.defs#filterablePreference`](/lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
+| `mention` | [`app.bsky.notification.defs#filterablePreference`](/lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
+| `quote` | [`app.bsky.notification.defs#filterablePreference`](/lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
+| `reply` | [`app.bsky.notification.defs#filterablePreference`](/lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
+| `repost` | [`app.bsky.notification.defs#filterablePreference`](/lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
+| `repostViaRepost` | [`app.bsky.notification.defs#filterablePreference`](/lexicons/app/bsky/notification/defs#filterablePreference) | ❌  |  |  |
+| `starterpackJoined` | [`app.bsky.notification.defs#preference`](/lexicons/app/bsky/notification/defs#preference) | ❌  |  |  |
+| `subscribedPost` | [`app.bsky.notification.defs#preference`](/lexicons/app/bsky/notification/defs#preference) | ❌  |  |  |
+| `unverified` | [`app.bsky.notification.defs#preference`](/lexicons/app/bsky/notification/defs#preference) | ❌  |  |  |
+| `verified` | [`app.bsky.notification.defs#preference`](/lexicons/app/bsky/notification/defs#preference) | ❌  |  |  |
 **Output:**
 
 - **Encoding:** `application/json`
@@ -46,7 +46,7 @@ Set notification-related preferences for an account. Requires auth.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `preferences` | [`app.bsky.notification.defs#preferences`](lexicons/app/bsky/notification/defs#preferences) | ✅  |  |  |
+| `preferences` | [`app.bsky.notification.defs#preferences`](/lexicons/app/bsky/notification/defs#preferences) | ✅  |  |  |
 
 ---
 

@@ -30,7 +30,7 @@ Get a feed of recent posts from a list (posts and reposts from any actors on the
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `feed` | Array of [`app.bsky.feed.defs#feedViewPost`](lexicons/app/bsky/feed/defs#feedViewPost) | ✅  |  |  |
+| `feed` | Array of [`app.bsky.feed.defs#feedViewPost`](/lexicons/app/bsky/feed/defs#feedViewPost) | ✅  |  |  |
 **Possible Errors:**
 
 - `UnknownList`

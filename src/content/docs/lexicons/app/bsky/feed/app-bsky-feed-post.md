@@ -21,11 +21,11 @@ Record containing a Bluesky post.
 |------|------|----------|-------------|-------------|
 | `text` | `string` | ✅  | The primary post content. May be an empty string, if there are embeds. | Max Length: 3000<br/>Max Graphemes: 300 |
 | `entities` | Array of [`#entity`](#entity) | ❌  | DEPRECATED: replaced by app.bsky.richtext.facet. |  |
-| `facets` | Array of [`app.bsky.richtext.facet`](lexicons/app/bsky/richtext/facet#undefined) | ❌  | Annotations of text (mentions, URLs, hashtags, etc) |  |
+| `facets` | Array of [`app.bsky.richtext.facet`](/lexicons/app/bsky/richtext/facet#undefined) | ❌  | Annotations of text (mentions, URLs, hashtags, etc) |  |
 | `reply` | [`#replyRef`](#replyref) | ❌  |  |  |
-| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.images`](lexicons/app/bsky/embed/images#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.video`](lexicons/app/bsky/embed/video#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.external`](lexicons/app/bsky/embed/external#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.record`](lexicons/app/bsky/embed/record#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.recordWithMedia`](lexicons/app/bsky/embed/recordwithmedia#undefined) | ❌  |  |  |
+| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.images`](/lexicons/app/bsky/embed/images#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.video`](/lexicons/app/bsky/embed/video#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.external`](/lexicons/app/bsky/embed/external#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.record`](/lexicons/app/bsky/embed/record#undefined)<br/>&nbsp;&nbsp;[`app.bsky.embed.recordWithMedia`](/lexicons/app/bsky/embed/recordwithmedia#undefined) | ❌  |  |  |
 | `langs` | Array of `string` | ❌  | Indicates human language of post primary text content. | Max Items: 3 |
-| `labels` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.label.defs#selfLabels`](lexicons/com/atproto/label/defs#selfLabels) | ❌  | Self-label values for this post. Effectively content warnings. |  |
+| `labels` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.label.defs#selfLabels`](/lexicons/com/atproto/label/defs#selfLabels) | ❌  | Self-label values for this post. Effectively content warnings. |  |
 | `tags` | Array of `string` | ❌  | Additional hashtags, in addition to any included in post text and facets. | Max Items: 8 |
 | `createdAt` | `string` | ✅  | Client-declared timestamp when this post was originally created. | Format: `datetime` |
 
@@ -40,8 +40,8 @@ Record containing a Bluesky post.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `root` | [`com.atproto.repo.strongRef`](lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
-| `parent` | [`com.atproto.repo.strongRef`](lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
+| `root` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
+| `parent` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
 
 ---
 

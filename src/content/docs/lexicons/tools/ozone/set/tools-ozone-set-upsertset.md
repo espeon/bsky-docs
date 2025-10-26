@@ -20,7 +20,7 @@ Create or update set metadata
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`tools.ozone.set.defs#set`](lexicons/tools/ozone/set/defs#set)
+**Schema Type:** [`tools.ozone.set.defs#set`](/lexicons/tools/ozone/set/defs#set)
 
 
 **Output:**
@@ -28,7 +28,7 @@ Create or update set metadata
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`tools.ozone.set.defs#setView`](lexicons/tools/ozone/set/defs#setView)
+**Schema Type:** [`tools.ozone.set.defs#setView`](/lexicons/tools/ozone/set/defs#setView)
 
 
 

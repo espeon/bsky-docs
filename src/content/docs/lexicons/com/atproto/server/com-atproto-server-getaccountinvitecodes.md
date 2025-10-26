@@ -28,7 +28,7 @@ Get all invite codes for the current account. Requires auth.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `codes` | Array of [`com.atproto.server.defs#inviteCode`](lexicons/com/atproto/server/defs#inviteCode) | ✅  |  |  |
+| `codes` | Array of [`com.atproto.server.defs#inviteCode`](/lexicons/com/atproto/server/defs#inviteCode) | ✅  |  |  |
 **Possible Errors:**
 
 - `DuplicateCreate`

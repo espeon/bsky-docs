@@ -27,7 +27,7 @@ Get views for a list of starter packs.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `starterPacks` | Array of [`app.bsky.graph.defs#starterPackViewBasic`](lexicons/app/bsky/graph/defs#starterPackViewBasic) | ✅  |  |  |
+| `starterPacks` | Array of [`app.bsky.graph.defs#starterPackViewBasic`](/lexicons/app/bsky/graph/defs#starterPackViewBasic) | ✅  |  |  |
 
 ---
 

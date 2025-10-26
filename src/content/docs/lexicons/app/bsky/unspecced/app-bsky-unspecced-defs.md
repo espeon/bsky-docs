@@ -97,7 +97,7 @@ description: Reference for the app.bsky.unspecced.defs lexicon
 | `postCount` | `integer` | ✅  |  |  |
 | `status` | `string` | ❌  |  | Known Values: `hot` |
 | `category` | `string` | ❌  |  |  |
-| `actors` | Array of [`app.bsky.actor.defs#profileViewBasic`](lexicons/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
+| `actors` | Array of [`app.bsky.actor.defs#profileViewBasic`](/lexicons/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
 
 ---
 
@@ -110,7 +110,7 @@ description: Reference for the app.bsky.unspecced.defs lexicon
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `post` | [`app.bsky.feed.defs#postView`](lexicons/app/bsky/feed/defs#postView) | ✅  |  |  |
+| `post` | [`app.bsky.feed.defs#postView`](/lexicons/app/bsky/feed/defs#postView) | ✅  |  |  |
 | `moreParents` | `boolean` | ✅  | This post has more parents that were not present in the response. This is just a boolean, without the number of parents. |  |
 | `moreReplies` | `integer` | ✅  | This post has more replies that were not present in the response. This is a numeric value, which is best-effort and might not be accurate. |  |
 | `opThread` | `boolean` | ✅  | This post is part of a contiguous thread by the OP from the thread root. Many different OP threads can happen in the same thread. |  |
@@ -150,7 +150,7 @@ _(No properties defined)_
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `author` | [`app.bsky.feed.defs#blockedAuthor`](lexicons/app/bsky/feed/defs#blockedAuthor) | ✅  |  |  |
+| `author` | [`app.bsky.feed.defs#blockedAuthor`](/lexicons/app/bsky/feed/defs#blockedAuthor) | ✅  |  |  |
 
 ---
 

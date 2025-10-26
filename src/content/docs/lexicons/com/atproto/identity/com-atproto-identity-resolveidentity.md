@@ -23,7 +23,7 @@ Resolves an identity (DID or Handle) to a full identity (DID document and verifi
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`com.atproto.identity.defs#identityInfo`](lexicons/com/atproto/identity/defs#identityInfo)
+**Schema Type:** [`com.atproto.identity.defs#identityInfo`](/lexicons/com/atproto/identity/defs#identityInfo)
 
 
 **Possible Errors:**

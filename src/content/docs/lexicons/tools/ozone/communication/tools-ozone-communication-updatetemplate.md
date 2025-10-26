@@ -36,7 +36,7 @@ Administrative action to update an existing communication template. Allows passi
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`tools.ozone.communication.defs#templateView`](lexicons/tools/ozone/communication/defs#templateView)
+**Schema Type:** [`tools.ozone.communication.defs#templateView`](/lexicons/tools/ozone/communication/defs#templateView)
 
 
 **Possible Errors:**

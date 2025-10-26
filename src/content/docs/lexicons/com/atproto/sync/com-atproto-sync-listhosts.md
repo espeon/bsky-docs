@@ -45,7 +45,7 @@ Enumerates upstream hosts (eg, PDS or relay instances) that this service consume
 | `hostname` | `string` | ✅  | hostname of server; not a URL (no scheme) |  |
 | `seq` | `integer` | ❌  | Recent repo stream event sequence number. May be delayed from actual stream processing (eg, persisted cursor not in-memory cursor). |  |
 | `accountCount` | `integer` | ❌  |  |  |
-| `status` | [`com.atproto.sync.defs#hostStatus`](lexicons/com/atproto/sync/defs#hostStatus) | ❌  |  |  |
+| `status` | [`com.atproto.sync.defs#hostStatus`](/lexicons/com/atproto/sync/defs#hostStatus) | ❌  |  |  |
 
 ---
 

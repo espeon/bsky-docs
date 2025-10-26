@@ -43,8 +43,8 @@ Get accounts that share some matching threat signatures with the root account.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `account` | [`com.atproto.admin.defs#accountView`](lexicons/com/atproto/admin/defs#accountView) | ✅  |  |  |
-| `similarities` | Array of [`tools.ozone.signature.defs#sigDetail`](lexicons/tools/ozone/signature/defs#sigDetail) | ❌  |  |  |
+| `account` | [`com.atproto.admin.defs#accountView`](/lexicons/com/atproto/admin/defs#accountView) | ✅  |  |  |
+| `similarities` | Array of [`tools.ozone.signature.defs#sigDetail`](/lexicons/tools/ozone/signature/defs#sigDetail) | ❌  |  |  |
 
 ---
 

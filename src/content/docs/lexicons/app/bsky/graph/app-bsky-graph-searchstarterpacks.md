@@ -30,7 +30,7 @@ Find starter packs matching search criteria. Does not require auth.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `starterPacks` | Array of [`app.bsky.graph.defs#starterPackViewBasic`](lexicons/app/bsky/graph/defs#starterPackViewBasic) | ✅  |  |  |
+| `starterPacks` | Array of [`app.bsky.graph.defs#starterPackViewBasic`](/lexicons/app/bsky/graph/defs#starterPackViewBasic) | ✅  |  |  |
 
 ---
 

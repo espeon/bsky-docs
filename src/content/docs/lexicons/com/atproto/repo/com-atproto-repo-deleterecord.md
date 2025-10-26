@@ -38,7 +38,7 @@ Delete a repository record, or ensure it doesn't exist. Requires auth, implement
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `commit` | [`com.atproto.repo.defs#commitMeta`](lexicons/com/atproto/repo/defs#commitMeta) | ❌  |  |  |
+| `commit` | [`com.atproto.repo.defs#commitMeta`](/lexicons/com/atproto/repo/defs#commitMeta) | ❌  |  |  |
 **Possible Errors:**
 
 - `InvalidSwap`

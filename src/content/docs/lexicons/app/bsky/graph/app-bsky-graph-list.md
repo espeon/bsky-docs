@@ -19,12 +19,12 @@ Record representing a list of accounts (actors). Scope includes both moderation-
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `purpose` | [`app.bsky.graph.defs#listPurpose`](lexicons/app/bsky/graph/defs#listPurpose) | ✅  | Defines the purpose of the list (aka, moderation-oriented or curration-oriented) |  |
+| `purpose` | [`app.bsky.graph.defs#listPurpose`](/lexicons/app/bsky/graph/defs#listPurpose) | ✅  | Defines the purpose of the list (aka, moderation-oriented or curration-oriented) |  |
 | `name` | `string` | ✅  | Display name for list; can not be empty. | Min Length: 1<br/>Max Length: 64 |
 | `description` | `string` | ❌  |  | Max Length: 3000<br/>Max Graphemes: 300 |
-| `descriptionFacets` | Array of [`app.bsky.richtext.facet`](lexicons/app/bsky/richtext/facet#undefined) | ❌  |  |  |
+| `descriptionFacets` | Array of [`app.bsky.richtext.facet`](/lexicons/app/bsky/richtext/facet#undefined) | ❌  |  |  |
 | `avatar` | `blob` | ❌  |  | Accept: `image/png`, `image/jpeg`<br/>Max Size: 1000000 bytes |
-| `labels` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.label.defs#selfLabels`](lexicons/com/atproto/label/defs#selfLabels) | ❌  |  |  |
+| `labels` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.label.defs#selfLabels`](/lexicons/com/atproto/label/defs#selfLabels) | ❌  |  |  |
 | `createdAt` | `string` | ✅  |  | Format: `datetime` |
 
 ---

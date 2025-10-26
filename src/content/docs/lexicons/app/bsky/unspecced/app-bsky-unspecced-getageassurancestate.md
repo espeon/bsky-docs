@@ -20,7 +20,7 @@ Returns the current state of the age assurance process for an account. This is u
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`app.bsky.unspecced.defs#ageAssuranceState`](lexicons/app/bsky/unspecced/defs#ageAssuranceState)
+**Schema Type:** [`app.bsky.unspecced.defs#ageAssuranceState`](/lexicons/app/bsky/unspecced/defs#ageAssuranceState)
 
 
 

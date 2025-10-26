@@ -24,7 +24,7 @@ Get details about a record.
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`tools.ozone.moderation.defs#recordViewDetail`](lexicons/tools/ozone/moderation/defs#recordViewDetail)
+**Schema Type:** [`tools.ozone.moderation.defs#recordViewDetail`](/lexicons/tools/ozone/moderation/defs#recordViewDetail)
 
 
 **Possible Errors:**

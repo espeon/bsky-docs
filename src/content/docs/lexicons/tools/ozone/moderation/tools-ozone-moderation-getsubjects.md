@@ -27,7 +27,7 @@ Get details about subjects.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `subjects` | Array of [`tools.ozone.moderation.defs#subjectView`](lexicons/tools/ozone/moderation/defs#subjectView) | ✅  |  |  |
+| `subjects` | Array of [`tools.ozone.moderation.defs#subjectView`](/lexicons/tools/ozone/moderation/defs#subjectView) | ✅  |  |  |
 
 ---
 

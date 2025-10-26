@@ -33,19 +33,19 @@ const config: Config = {
   prefixLinkTable: {
     "app.bsky": (nsid: string) => {
       const [prefix, suffix] = nsid.split("#");
-      return `lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
+      return `/lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
     },
     "chat.bsky": (nsid: string) => {
       const [prefix, suffix] = nsid.split("#");
-      return `lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
+      return `/lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
     },
     "com.atproto": (nsid: string) => {
       const [prefix, suffix] = nsid.split("#");
-      return `lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
+      return `/lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
     },
     "tools.ozone": (nsid: string) => {
       const [prefix, suffix] = nsid.split("#");
-      return `lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
+      return `/lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
     },
   },
   defaultLexiconSeparator: "-",

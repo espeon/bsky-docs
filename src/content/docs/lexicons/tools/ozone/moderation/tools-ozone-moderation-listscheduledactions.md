@@ -39,7 +39,7 @@ List scheduled moderation actions with optional filtering
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `actions` | Array of [`tools.ozone.moderation.defs#scheduledActionView`](lexicons/tools/ozone/moderation/defs#scheduledActionView) | ✅  |  |  |
+| `actions` | Array of [`tools.ozone.moderation.defs#scheduledActionView`](/lexicons/tools/ozone/moderation/defs#scheduledActionView) | ✅  |  |  |
 | `cursor` | `string` | ❌  | Cursor for next page of results |  |
 
 ---

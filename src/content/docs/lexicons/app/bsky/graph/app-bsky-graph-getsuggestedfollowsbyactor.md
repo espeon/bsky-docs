@@ -27,7 +27,7 @@ Enumerates follows similar to a given account (actor). Expected use is to recomm
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `suggestions` | Array of [`app.bsky.actor.defs#profileView`](lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `suggestions` | Array of [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
 | `isFallback` | `boolean` | ❌  | If true, response has fallen-back to generic results, and is not scoped using relativeToDid | Default: `false` |
 | `recId` | `integer` | ❌  | Snowflake for this recommendation, use when submitting recommendation events. |  |
 
