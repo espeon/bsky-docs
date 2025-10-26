@@ -31,7 +31,7 @@ Find labels relevant to the provided AT-URI patterns. Public endpoint for modera
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ✅  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/com-atproto-label-defs#label) | ✅  |  |  |
 
 ---
 

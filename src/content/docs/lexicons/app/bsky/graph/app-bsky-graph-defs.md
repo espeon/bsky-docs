@@ -21,7 +21,7 @@ description: Reference for the app.bsky.graph.defs lexicon
 | `purpose` | [`#listPurpose`](#listpurpose) | ✅  |  |  |
 | `avatar` | `string` | ❌  |  | Format: `uri` |
 | `listItemCount` | `integer` | ❌  |  | Min: 0 |
-| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/com-atproto-label-defs#label) | ❌  |  |  |
 | `viewer` | [`#listViewerState`](#listviewerstate) | ❌  |  |  |
 | `indexedAt` | `string` | ❌  |  | Format: `datetime` |
 
@@ -38,14 +38,14 @@ description: Reference for the app.bsky.graph.defs lexicon
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
-| `creator` | [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `creator` | [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/app-bsky-actor-defs#profileview) | ✅  |  |  |
 | `name` | `string` | ✅  |  | Min Length: 1<br/>Max Length: 64 |
 | `purpose` | [`#listPurpose`](#listpurpose) | ✅  |  |  |
 | `description` | `string` | ❌  |  | Max Length: 3000<br/>Max Graphemes: 300 |
-| `descriptionFacets` | Array of [`app.bsky.richtext.facet`](/lexicons/app/bsky/richtext/facet#undefined) | ❌  |  |  |
+| `descriptionFacets` | Array of [`app.bsky.richtext.facet`](/lexicons/app/bsky/richtext/app-bsky-richtext-facet) | ❌  |  |  |
 | `avatar` | `string` | ❌  |  | Format: `uri` |
 | `listItemCount` | `integer` | ❌  |  | Min: 0 |
-| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/com-atproto-label-defs#label) | ❌  |  |  |
 | `viewer` | [`#listViewerState`](#listviewerstate) | ❌  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
 
@@ -61,7 +61,7 @@ description: Reference for the app.bsky.graph.defs lexicon
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
-| `subject` | [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `subject` | [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/app-bsky-actor-defs#profileview) | ✅  |  |  |
 
 ---
 
@@ -77,13 +77,13 @@ description: Reference for the app.bsky.graph.defs lexicon
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
 | `record` | `unknown` | ✅  |  |  |
-| `creator` | [`app.bsky.actor.defs#profileViewBasic`](/lexicons/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
+| `creator` | [`app.bsky.actor.defs#profileViewBasic`](/lexicons/app/bsky/actor/app-bsky-actor-defs#profileviewbasic) | ✅  |  |  |
 | `list` | [`#listViewBasic`](#listviewbasic) | ❌  |  |  |
 | `listItemsSample` | Array of [`#listItemView`](#listitemview) | ❌  |  | Max Items: 12 |
-| `feeds` | Array of [`app.bsky.feed.defs#generatorView`](/lexicons/app/bsky/feed/defs#generatorView) | ❌  |  | Max Items: 3 |
+| `feeds` | Array of [`app.bsky.feed.defs#generatorView`](/lexicons/app/bsky/feed/app-bsky-feed-defs#generatorview) | ❌  |  | Max Items: 3 |
 | `joinedWeekCount` | `integer` | ❌  |  | Min: 0 |
 | `joinedAllTimeCount` | `integer` | ❌  |  | Min: 0 |
-| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/com-atproto-label-defs#label) | ❌  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
 
 ---
@@ -100,11 +100,11 @@ description: Reference for the app.bsky.graph.defs lexicon
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
 | `record` | `unknown` | ✅  |  |  |
-| `creator` | [`app.bsky.actor.defs#profileViewBasic`](/lexicons/app/bsky/actor/defs#profileViewBasic) | ✅  |  |  |
+| `creator` | [`app.bsky.actor.defs#profileViewBasic`](/lexicons/app/bsky/actor/app-bsky-actor-defs#profileviewbasic) | ✅  |  |  |
 | `listItemCount` | `integer` | ❌  |  | Min: 0 |
 | `joinedWeekCount` | `integer` | ❌  |  | Min: 0 |
 | `joinedAllTimeCount` | `integer` | ❌  |  | Min: 0 |
-| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/com-atproto-label-defs#label) | ❌  |  |  |
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
 
 ---

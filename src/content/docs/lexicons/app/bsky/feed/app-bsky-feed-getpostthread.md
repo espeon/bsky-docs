@@ -29,8 +29,8 @@ Get posts in a thread. Does not require auth, but additional metadata and filter
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `thread` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#threadViewPost`](/lexicons/app/bsky/feed/defs#threadViewPost)<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#notFoundPost`](/lexicons/app/bsky/feed/defs#notFoundPost)<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#blockedPost`](/lexicons/app/bsky/feed/defs#blockedPost) | ✅  |  |  |
-| `threadgate` | [`app.bsky.feed.defs#threadgateView`](/lexicons/app/bsky/feed/defs#threadgateView) | ❌  |  |  |
+| `thread` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#threadViewPost`](/lexicons/app/bsky/feed/app-bsky-feed-defs#threadviewpost)<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#notFoundPost`](/lexicons/app/bsky/feed/app-bsky-feed-defs#notfoundpost)<br/>&nbsp;&nbsp;[`app.bsky.feed.defs#blockedPost`](/lexicons/app/bsky/feed/app-bsky-feed-defs#blockedpost) | ✅  |  |  |
+| `threadgate` | [`app.bsky.feed.defs#threadgateView`](/lexicons/app/bsky/feed/app-bsky-feed-defs#threadgateview) | ❌  |  |  |
 **Possible Errors:**
 
 - `NotFound`

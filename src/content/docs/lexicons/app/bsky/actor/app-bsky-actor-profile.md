@@ -25,9 +25,9 @@ A declaration of a Bluesky account profile.
 | `website` | `string` | ❌  |  | Format: `uri` |
 | `avatar` | `blob` | ❌  | Small image to be displayed next to posts from account. AKA, 'profile picture' | Accept: `image/png`, `image/jpeg`<br/>Max Size: 1000000 bytes |
 | `banner` | `blob` | ❌  | Larger horizontal image to display behind profile view. | Accept: `image/png`, `image/jpeg`<br/>Max Size: 1000000 bytes |
-| `labels` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.label.defs#selfLabels`](/lexicons/com/atproto/label/defs#selfLabels) | ❌  | Self-label values, specific to the Bluesky application, on the overall account. |  |
-| `joinedViaStarterPack` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ❌  |  |  |
-| `pinnedPost` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ❌  |  |  |
+| `labels` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.label.defs#selfLabels`](/lexicons/com/atproto/label/com-atproto-label-defs#selflabels) | ❌  | Self-label values, specific to the Bluesky application, on the overall account. |  |
+| `joinedViaStarterPack` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/com-atproto-repo-strongref) | ❌  |  |  |
+| `pinnedPost` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/com-atproto-repo-strongref) | ❌  |  |  |
 | `createdAt` | `string` | ❌  |  | Format: `datetime` |
 
 ---

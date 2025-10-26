@@ -27,7 +27,7 @@ Get details about some records.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `records` | Array of Union of:<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#recordViewDetail`](/lexicons/tools/ozone/moderation/defs#recordViewDetail)<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#recordViewNotFound`](/lexicons/tools/ozone/moderation/defs#recordViewNotFound) | ✅  |  |  |
+| `records` | Array of Union of:<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#recordViewDetail`](/lexicons/tools/ozone/moderation/tools-ozone-moderation-defs#recordviewdetail)<br/>&nbsp;&nbsp;[`tools.ozone.moderation.defs#recordViewNotFound`](/lexicons/tools/ozone/moderation/tools-ozone-moderation-defs#recordviewnotfound) | ✅  |  |  |
 
 ---
 

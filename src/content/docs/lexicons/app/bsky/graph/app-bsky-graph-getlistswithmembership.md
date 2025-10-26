@@ -46,8 +46,8 @@ A list and an optional list item indicating membership of a target user to that 
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `list` | [`app.bsky.graph.defs#listView`](/lexicons/app/bsky/graph/defs#listView) | ✅  |  |  |
-| `listItem` | [`app.bsky.graph.defs#listItemView`](/lexicons/app/bsky/graph/defs#listItemView) | ❌  |  |  |
+| `list` | [`app.bsky.graph.defs#listView`](/lexicons/app/bsky/graph/app-bsky-graph-defs#listview) | ✅  |  |  |
+| `listItem` | [`app.bsky.graph.defs#listItemView`](/lexicons/app/bsky/graph/app-bsky-graph-defs#listitemview) | ❌  |  |  |
 
 ---
 

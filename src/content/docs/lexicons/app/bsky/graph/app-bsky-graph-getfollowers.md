@@ -29,9 +29,9 @@ Enumerates accounts which follow a specified account (actor).
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `subject` | [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `subject` | [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/app-bsky-actor-defs#profileview) | ✅  |  |  |
 | `cursor` | `string` | ❌  |  |  |
-| `followers` | Array of [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `followers` | Array of [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/app-bsky-actor-defs#profileview) | ✅  |  |  |
 
 ---
 

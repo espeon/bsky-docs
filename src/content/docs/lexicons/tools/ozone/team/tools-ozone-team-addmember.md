@@ -31,7 +31,7 @@ Add a member to the ozone team. Requires admin role.
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`tools.ozone.team.defs#member`](/lexicons/tools/ozone/team/defs#member)
+**Schema Type:** [`tools.ozone.team.defs#member`](/lexicons/tools/ozone/team/tools-ozone-team-defs#member)
 
 
 **Possible Errors:**

@@ -30,7 +30,7 @@ Get a list of starter packs created by the actor.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `starterPacks` | Array of [`app.bsky.graph.defs#starterPackViewBasic`](/lexicons/app/bsky/graph/defs#starterPackViewBasic) | ✅  |  |  |
+| `starterPacks` | Array of [`app.bsky.graph.defs#starterPackViewBasic`](/lexicons/app/bsky/graph/app-bsky-graph-defs#starterpackviewbasic) | ✅  |  |  |
 
 ---
 

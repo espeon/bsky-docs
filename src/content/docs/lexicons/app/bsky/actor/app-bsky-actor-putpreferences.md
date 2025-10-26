@@ -24,7 +24,7 @@ Set the private preferences attached to the account.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `preferences` | [`app.bsky.actor.defs#preferences`](/lexicons/app/bsky/actor/defs#preferences) | ✅  |  |  |
+| `preferences` | [`app.bsky.actor.defs#preferences`](/lexicons/app/bsky/actor/app-bsky-actor-defs#preferences) | ✅  |  |  |
 
 ---
 

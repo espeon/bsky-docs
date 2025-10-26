@@ -35,7 +35,7 @@ List verifications
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `verifications` | Array of [`tools.ozone.verification.defs#verificationView`](/lexicons/tools/ozone/verification/defs#verificationView) | ✅  |  |  |
+| `verifications` | Array of [`tools.ozone.verification.defs#verificationView`](/lexicons/tools/ozone/verification/tools-ozone-verification-defs#verificationview) | ✅  |  |  |
 
 ---
 

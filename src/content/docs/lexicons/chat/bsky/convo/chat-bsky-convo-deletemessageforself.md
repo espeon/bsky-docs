@@ -29,7 +29,7 @@ description: Reference for the chat.bsky.convo.deleteMessageForSelf lexicon
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`chat.bsky.convo.defs#deletedMessageView`](/lexicons/chat/bsky/convo/defs#deletedMessageView)
+**Schema Type:** [`chat.bsky.convo.defs#deletedMessageView`](/lexicons/chat/bsky/convo/chat-bsky-convo-defs#deletedmessageview)
 
 
 

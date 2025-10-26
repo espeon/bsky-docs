@@ -62,7 +62,7 @@ View moderation statuses of subjects (record or repo).
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `subjectStatuses` | Array of [`tools.ozone.moderation.defs#subjectStatusView`](/lexicons/tools/ozone/moderation/defs#subjectStatusView) | ✅  |  |  |
+| `subjectStatuses` | Array of [`tools.ozone.moderation.defs#subjectStatusView`](/lexicons/tools/ozone/moderation/tools-ozone-moderation-defs#subjectstatusview) | ✅  |  |  |
 
 ---
 

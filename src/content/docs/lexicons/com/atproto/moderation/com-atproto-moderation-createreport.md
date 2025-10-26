@@ -24,9 +24,9 @@ Submit a moderation report regarding an atproto account or record. Implemented b
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `reasonType` | [`com.atproto.moderation.defs#reasonType`](/lexicons/com/atproto/moderation/defs#reasonType) | ✅  | Indicates the broad category of violation the report is for. |  |
+| `reasonType` | [`com.atproto.moderation.defs#reasonType`](/lexicons/com/atproto/moderation/com-atproto-moderation-defs#reasontype) | ✅  | Indicates the broad category of violation the report is for. |  |
 | `reason` | `string` | ❌  | Additional context about the content and violation. | Max Length: 20000<br/>Max Graphemes: 2000 |
-| `subject` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoRef`](/lexicons/com/atproto/admin/defs#repoRef)<br/>&nbsp;&nbsp;[`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
+| `subject` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoRef`](/lexicons/com/atproto/admin/com-atproto-admin-defs#reporef)<br/>&nbsp;&nbsp;[`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/com-atproto-repo-strongref) | ✅  |  |  |
 | `modTool` | [`#modTool`](#modtool) | ❌  |  |  |
 **Output:**
 
@@ -38,9 +38,9 @@ Submit a moderation report regarding an atproto account or record. Implemented b
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `id` | `integer` | ✅  |  |  |
-| `reasonType` | [`com.atproto.moderation.defs#reasonType`](/lexicons/com/atproto/moderation/defs#reasonType) | ✅  |  |  |
+| `reasonType` | [`com.atproto.moderation.defs#reasonType`](/lexicons/com/atproto/moderation/com-atproto-moderation-defs#reasontype) | ✅  |  |  |
 | `reason` | `string` | ❌  |  | Max Length: 20000<br/>Max Graphemes: 2000 |
-| `subject` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoRef`](/lexicons/com/atproto/admin/defs#repoRef)<br/>&nbsp;&nbsp;[`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
+| `subject` | Union of:<br/>&nbsp;&nbsp;[`com.atproto.admin.defs#repoRef`](/lexicons/com/atproto/admin/com-atproto-admin-defs#reporef)<br/>&nbsp;&nbsp;[`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/com-atproto-repo-strongref) | ✅  |  |  |
 | `reportedBy` | `string` | ✅  |  | Format: `did` |
 | `createdAt` | `string` | ✅  |  | Format: `datetime` |
 

@@ -29,7 +29,7 @@ Gets views of records bookmarked by the authenticated user. Requires authenticat
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `bookmarks` | Array of [`app.bsky.bookmark.defs#bookmarkView`](/lexicons/app/bsky/bookmark/defs#bookmarkView) | ✅  |  |  |
+| `bookmarks` | Array of [`app.bsky.bookmark.defs#bookmarkView`](/lexicons/app/bsky/bookmark/app-bsky-bookmark-defs#bookmarkview) | ✅  |  |  |
 
 ---
 

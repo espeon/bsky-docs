@@ -36,7 +36,7 @@ Adds an emoji reaction to a message. Requires authentication. It is idempotent, 
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `message` | [`chat.bsky.convo.defs#messageView`](/lexicons/chat/bsky/convo/defs#messageView) | ✅  |  |  |
+| `message` | [`chat.bsky.convo.defs#messageView`](/lexicons/chat/bsky/convo/chat-bsky-convo-defs#messageview) | ✅  |  |  |
 **Possible Errors:**
 
 - `ReactionMessageDeleted`: Indicates that the message has been deleted and reactions can no longer be added/removed.

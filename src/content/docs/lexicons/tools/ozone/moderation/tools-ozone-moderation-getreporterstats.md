@@ -27,7 +27,7 @@ Get reporter stats for a list of users.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `stats` | Array of [`tools.ozone.moderation.defs#reporterStats`](/lexicons/tools/ozone/moderation/defs#reporterStats) | ✅  |  |  |
+| `stats` | Array of [`tools.ozone.moderation.defs#reporterStats`](/lexicons/tools/ozone/moderation/tools-ozone-moderation-defs#reporterstats) | ✅  |  |  |
 
 ---
 

@@ -48,7 +48,7 @@ Get like records which reference a subject (by AT-URI and CID).
 |------|------|----------|-------------|-------------|
 | `indexedAt` | `string` | ✅  |  | Format: `datetime` |
 | `createdAt` | `string` | ✅  |  | Format: `datetime` |
-| `actor` | [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/defs#profileView) | ✅  |  |  |
+| `actor` | [`app.bsky.actor.defs#profileView`](/lexicons/app/bsky/actor/app-bsky-actor-defs#profileview) | ✅  |  |  |
 
 ---
 

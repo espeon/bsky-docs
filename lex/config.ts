@@ -33,19 +33,27 @@ const config: Config = {
   prefixLinkTable: {
     "app.bsky": (nsid: string) => {
       const [prefix, suffix] = nsid.split("#");
-      return `/lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
+      const prePrefix = prefix.split(".").slice(0, -1).join(".");
+      const path = `/lexicons/${prePrefix.toLowerCase().replaceAll(".", "/")}/${prefix.toLowerCase().replaceAll(".", "-")}`;
+      return suffix ? `${path}#${suffix.toLowerCase()}` : path;
     },
     "chat.bsky": (nsid: string) => {
       const [prefix, suffix] = nsid.split("#");
-      return `/lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
+      const prePrefix = prefix.split(".").slice(0, -1).join(".");
+      const path = `/lexicons/${prePrefix.toLowerCase().replaceAll(".", "/")}/${prefix.toLowerCase().replaceAll(".", "-")}`;
+      return suffix ? `${path}#${suffix.toLowerCase()}` : path;
     },
     "com.atproto": (nsid: string) => {
       const [prefix, suffix] = nsid.split("#");
-      return `/lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
+      const prePrefix = prefix.split(".").slice(0, -1).join(".");
+      const path = `/lexicons/${prePrefix.toLowerCase().replaceAll(".", "/")}/${prefix.toLowerCase().replaceAll(".", "-")}`;
+      return suffix ? `${path}#${suffix.toLowerCase()}` : path;
     },
     "tools.ozone": (nsid: string) => {
       const [prefix, suffix] = nsid.split("#");
-      return `/lexicons/${prefix.toLowerCase().replaceAll(".", "/")}#${suffix}`;
+      const prePrefix = prefix.split(".").slice(0, -1).join(".");
+      const path = `/lexicons/${prePrefix.toLowerCase().replaceAll(".", "/")}/${prefix.toLowerCase().replaceAll(".", "-")}`;
+      return suffix ? `${path}#${suffix.toLowerCase()}` : path;
     },
   },
   defaultLexiconSeparator: "-",

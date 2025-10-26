@@ -30,7 +30,7 @@ _Schema not defined._
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `jobStatus` | [`app.bsky.video.defs#jobStatus`](/lexicons/app/bsky/video/defs#jobStatus) | ✅  |  |  |
+| `jobStatus` | [`app.bsky.video.defs#jobStatus`](/lexicons/app/bsky/video/app-bsky-video-defs#jobstatus) | ✅  |  |  |
 
 ---
 

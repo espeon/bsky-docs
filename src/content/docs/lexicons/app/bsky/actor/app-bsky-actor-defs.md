@@ -22,7 +22,7 @@ description: Reference for the app.bsky.actor.defs lexicon
 | `avatar` | `string` | ❌  |  | Format: `uri` |
 | `associated` | [`#profileAssociated`](#profileassociated) | ❌  |  |  |
 | `viewer` | [`#viewerState`](#viewerstate) | ❌  |  |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/com-atproto-label-defs#label) | ❌  |  |  |
 | `createdAt` | `string` | ❌  |  | Format: `datetime` |
 | `verification` | [`#verificationState`](#verificationstate) | ❌  |  |  |
 | `status` | [`#statusView`](#statusview) | ❌  |  |  |
@@ -48,7 +48,7 @@ description: Reference for the app.bsky.actor.defs lexicon
 | `indexedAt` | `string` | ❌  |  | Format: `datetime` |
 | `createdAt` | `string` | ❌  |  | Format: `datetime` |
 | `viewer` | [`#viewerState`](#viewerstate) | ❌  |  |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/com-atproto-label-defs#label) | ❌  |  |  |
 | `verification` | [`#verificationState`](#verificationstate) | ❌  |  |  |
 | `status` | [`#statusView`](#statusview) | ❌  |  |  |
 
@@ -75,12 +75,12 @@ description: Reference for the app.bsky.actor.defs lexicon
 | `followsCount` | `integer` | ❌  |  |  |
 | `postsCount` | `integer` | ❌  |  |  |
 | `associated` | [`#profileAssociated`](#profileassociated) | ❌  |  |  |
-| `joinedViaStarterPack` | [`app.bsky.graph.defs#starterPackViewBasic`](/lexicons/app/bsky/graph/defs#starterPackViewBasic) | ❌  |  |  |
+| `joinedViaStarterPack` | [`app.bsky.graph.defs#starterPackViewBasic`](/lexicons/app/bsky/graph/app-bsky-graph-defs#starterpackviewbasic) | ❌  |  |  |
 | `indexedAt` | `string` | ❌  |  | Format: `datetime` |
 | `createdAt` | `string` | ❌  |  | Format: `datetime` |
 | `viewer` | [`#viewerState`](#viewerstate) | ❌  |  |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
-| `pinnedPost` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/com-atproto-label-defs#label) | ❌  |  |  |
+| `pinnedPost` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/com-atproto-repo-strongref) | ❌  |  |  |
 | `verification` | [`#verificationState`](#verificationstate) | ❌  |  |  |
 | `status` | [`#statusView`](#statusview) | ❌  |  |  |
 
@@ -142,14 +142,14 @@ Metadata about the requesting account's relationship with the subject account. O
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `muted` | `boolean` | ❌  |  |  |
-| `mutedByList` | [`app.bsky.graph.defs#listViewBasic`](/lexicons/app/bsky/graph/defs#listViewBasic) | ❌  |  |  |
+| `mutedByList` | [`app.bsky.graph.defs#listViewBasic`](/lexicons/app/bsky/graph/app-bsky-graph-defs#listviewbasic) | ❌  |  |  |
 | `blockedBy` | `boolean` | ❌  |  |  |
 | `blocking` | `string` | ❌  |  | Format: `at-uri` |
-| `blockingByList` | [`app.bsky.graph.defs#listViewBasic`](/lexicons/app/bsky/graph/defs#listViewBasic) | ❌  |  |  |
+| `blockingByList` | [`app.bsky.graph.defs#listViewBasic`](/lexicons/app/bsky/graph/app-bsky-graph-defs#listviewbasic) | ❌  |  |  |
 | `following` | `string` | ❌  |  | Format: `at-uri` |
 | `followedBy` | `string` | ❌  |  | Format: `at-uri` |
 | `knownFollowers` | [`#knownFollowers`](#knownfollowers) | ❌  | This property is present only in selected cases, as an optimization. |  |
-| `activitySubscription` | [`app.bsky.notification.defs#activitySubscription`](/lexicons/app/bsky/notification/defs#activitySubscription) | ❌  | This property is present only in selected cases, as an optimization. |  |
+| `activitySubscription` | [`app.bsky.notification.defs#activitySubscription`](/lexicons/app/bsky/notification/app-bsky-notification-defs#activitysubscription) | ❌  | This property is present only in selected cases, as an optimization. |  |
 
 ---
 
@@ -267,7 +267,7 @@ An individual verification for an associated subject.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `items` | Array of [`app.bsky.actor.defs#savedFeed`](/lexicons/app/bsky/actor/defs#savedFeed) | ✅  |  |  |
+| `items` | Array of [`app.bsky.actor.defs#savedFeed`](/lexicons/app/bsky/actor/app-bsky-actor-defs#savedfeed) | ✅  |  |  |
 
 ---
 
@@ -367,7 +367,7 @@ A word that the account owner has muted.
 |------|------|----------|-------------|-------------|
 | `id` | `string` | ❌  |  |  |
 | `value` | `string` | ✅  | The muted word itself. | Max Length: 10000<br/>Max Graphemes: 1000 |
-| `targets` | Array of [`app.bsky.actor.defs#mutedWordTarget`](/lexicons/app/bsky/actor/defs#mutedWordTarget) | ✅  | The intended targets of the muted word. |  |
+| `targets` | Array of [`app.bsky.actor.defs#mutedWordTarget`](/lexicons/app/bsky/actor/app-bsky-actor-defs#mutedwordtarget) | ✅  | The intended targets of the muted word. |  |
 | `actorTarget` | `string` | ❌  | Groups of users to apply the muted word to. If undefined, applies to all users. | Known Values: `all`, `exclude-following`<br/>Default: `all` |
 | `expiresAt` | `string` | ❌  | The date and time at which the muted word will expire and no longer be applied. | Format: `datetime` |
 
@@ -382,7 +382,7 @@ A word that the account owner has muted.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `items` | Array of [`app.bsky.actor.defs#mutedWord`](/lexicons/app/bsky/actor/defs#mutedWord) | ✅  | A list of words the account owner has muted. |  |
+| `items` | Array of [`app.bsky.actor.defs#mutedWord`](/lexicons/app/bsky/actor/app-bsky-actor-defs#mutedword) | ✅  | A list of words the account owner has muted. |  |
 
 ---
 
@@ -438,7 +438,7 @@ A grab bag of state that's specific to the bsky.app program. Third-party apps sh
 |------|------|----------|-------------|-------------|
 | `activeProgressGuide` | [`#bskyAppProgressGuide`](#bskyappprogressguide) | ❌  |  |  |
 | `queuedNudges` | Array of `string` | ❌  | An array of tokens which identify nudges (modals, popups, tours, highlight dots) that should be shown to the user. | Max Items: 1000 |
-| `nuxs` | Array of [`app.bsky.actor.defs#nux`](/lexicons/app/bsky/actor/defs#nux) | ❌  | Storage for NUXs the user has encountered. | Max Items: 100 |
+| `nuxs` | Array of [`app.bsky.actor.defs#nux`](/lexicons/app/bsky/actor/app-bsky-actor-defs#nux) | ❌  | Storage for NUXs the user has encountered. | Max Items: 100 |
 
 ---
 
@@ -501,8 +501,8 @@ Default post interaction settings for the account. These values should be applie
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `threadgateAllowRules` | Array of Union of:<br/>&nbsp;&nbsp;[`app.bsky.feed.threadgate#mentionRule`](/lexicons/app/bsky/feed/threadgate#mentionRule)<br/>&nbsp;&nbsp;[`app.bsky.feed.threadgate#followerRule`](/lexicons/app/bsky/feed/threadgate#followerRule)<br/>&nbsp;&nbsp;[`app.bsky.feed.threadgate#followingRule`](/lexicons/app/bsky/feed/threadgate#followingRule)<br/>&nbsp;&nbsp;[`app.bsky.feed.threadgate#listRule`](/lexicons/app/bsky/feed/threadgate#listRule) | ❌  | Matches threadgate record. List of rules defining who can reply to this users posts. If value is an empty array, no one can reply. If value is undefined, anyone can reply. | Max Items: 5 |
-| `postgateEmbeddingRules` | Array of Union of:<br/>&nbsp;&nbsp;[`app.bsky.feed.postgate#disableRule`](/lexicons/app/bsky/feed/postgate#disableRule) | ❌  | Matches postgate record. List of rules defining who can embed this users posts. If value is an empty array or is undefined, no particular rules apply and anyone can embed. | Max Items: 5 |
+| `threadgateAllowRules` | Array of Union of:<br/>&nbsp;&nbsp;[`app.bsky.feed.threadgate#mentionRule`](/lexicons/app/bsky/feed/app-bsky-feed-threadgate#mentionrule)<br/>&nbsp;&nbsp;[`app.bsky.feed.threadgate#followerRule`](/lexicons/app/bsky/feed/app-bsky-feed-threadgate#followerrule)<br/>&nbsp;&nbsp;[`app.bsky.feed.threadgate#followingRule`](/lexicons/app/bsky/feed/app-bsky-feed-threadgate#followingrule)<br/>&nbsp;&nbsp;[`app.bsky.feed.threadgate#listRule`](/lexicons/app/bsky/feed/app-bsky-feed-threadgate#listrule) | ❌  | Matches threadgate record. List of rules defining who can reply to this users posts. If value is an empty array, no one can reply. If value is undefined, anyone can reply. | Max Items: 5 |
+| `postgateEmbeddingRules` | Array of Union of:<br/>&nbsp;&nbsp;[`app.bsky.feed.postgate#disableRule`](/lexicons/app/bsky/feed/app-bsky-feed-postgate#disablerule) | ❌  | Matches postgate record. List of rules defining who can embed this users posts. If value is an empty array or is undefined, no particular rules apply and anyone can embed. | Max Items: 5 |
 
 ---
 
@@ -517,7 +517,7 @@ Default post interaction settings for the account. These values should be applie
 |------|------|----------|-------------|-------------|
 | `status` | `string` | ✅  | The status for the account. | Known Values: `app.bsky.actor.status#live` |
 | `record` | `unknown` | ✅  |  |  |
-| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.external#view`](/lexicons/app/bsky/embed/external#view) | ❌  | An optional embed associated with the status. |  |
+| `embed` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.embed.external#view`](/lexicons/app/bsky/embed/app-bsky-embed-external#view) | ❌  | An optional embed associated with the status. |  |
 | `expiresAt` | `string` | ❌  | The date when this status will expire. The application might choose to no longer return the status after expiration. | Format: `datetime` |
 | `isActive` | `boolean` | ❌  | True if the status is not expired, false if it is expired. Only present if expiration was set. |  |
 

@@ -32,7 +32,7 @@ description: Reference for the chat.bsky.convo.muteConvo lexicon
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `convo` | [`chat.bsky.convo.defs#convoView`](/lexicons/chat/bsky/convo/defs#convoView) | ✅  |  |  |
+| `convo` | [`chat.bsky.convo.defs#convoView`](/lexicons/chat/bsky/convo/chat-bsky-convo-defs#convoview) | ✅  |  |  |
 
 ---
 

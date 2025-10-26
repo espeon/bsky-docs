@@ -32,7 +32,7 @@ Backend Starter Pack search, returns only skeleton.
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
 | `hitsTotal` | `integer` | ❌  | Count of search hits. Optional, may be rounded/truncated, and may not be possible to paginate through all hits. |  |
-| `starterPacks` | Array of [`app.bsky.unspecced.defs#skeletonSearchStarterPack`](/lexicons/app/bsky/unspecced/defs#skeletonSearchStarterPack) | ✅  |  |  |
+| `starterPacks` | Array of [`app.bsky.unspecced.defs#skeletonSearchStarterPack`](/lexicons/app/bsky/unspecced/app-bsky-unspecced-defs#skeletonsearchstarterpack) | ✅  |  |  |
 **Possible Errors:**
 
 - `BadQueryString`

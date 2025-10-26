@@ -34,7 +34,7 @@ Grant verifications to multiple subjects. Allows batch processing of up to 100 v
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `verifications` | Array of [`tools.ozone.verification.defs#verificationView`](/lexicons/tools/ozone/verification/defs#verificationView) | ✅  |  |  |
+| `verifications` | Array of [`tools.ozone.verification.defs#verificationView`](/lexicons/tools/ozone/verification/tools-ozone-verification-defs#verificationview) | ✅  |  |  |
 | `failedVerifications` | Array of [`#grantError`](#granterror) | ✅  |  |  |
 
 ---

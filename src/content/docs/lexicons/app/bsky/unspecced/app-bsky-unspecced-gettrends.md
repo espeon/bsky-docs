@@ -27,7 +27,7 @@ Get the current trends on the network
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `trends` | Array of [`app.bsky.unspecced.defs#trendView`](/lexicons/app/bsky/unspecced/defs#trendView) | ✅  |  |  |
+| `trends` | Array of [`app.bsky.unspecced.defs#trendView`](/lexicons/app/bsky/unspecced/app-bsky-unspecced-defs#trendview) | ✅  |  |  |
 
 ---
 

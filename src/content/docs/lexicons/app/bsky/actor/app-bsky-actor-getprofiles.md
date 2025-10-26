@@ -27,7 +27,7 @@ Get detailed profile views of multiple actors.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `profiles` | Array of [`app.bsky.actor.defs#profileViewDetailed`](/lexicons/app/bsky/actor/defs#profileViewDetailed) | ✅  |  |  |
+| `profiles` | Array of [`app.bsky.actor.defs#profileViewDetailed`](/lexicons/app/bsky/actor/app-bsky-actor-defs#profileviewdetailed) | ✅  |  |  |
 
 ---
 

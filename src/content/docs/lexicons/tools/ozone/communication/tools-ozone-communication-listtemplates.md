@@ -24,7 +24,7 @@ Get list of all communication templates.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `communicationTemplates` | Array of [`tools.ozone.communication.defs#templateView`](/lexicons/tools/ozone/communication/defs#templateView) | ✅  |  |  |
+| `communicationTemplates` | Array of [`tools.ozone.communication.defs#templateView`](/lexicons/tools/ozone/communication/tools-ozone-communication-defs#templateview) | ✅  |  |  |
 
 ---
 

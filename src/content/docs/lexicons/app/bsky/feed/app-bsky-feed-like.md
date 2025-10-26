@@ -19,9 +19,9 @@ Record declaring a 'like' of a piece of subject content.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `subject` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ✅  |  |  |
+| `subject` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/com-atproto-repo-strongref) | ✅  |  |  |
 | `createdAt` | `string` | ✅  |  | Format: `datetime` |
-| `via` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/strongref#undefined) | ❌  |  |  |
+| `via` | [`com.atproto.repo.strongRef`](/lexicons/com/atproto/repo/com-atproto-repo-strongref) | ❌  |  |  |
 
 ---
 

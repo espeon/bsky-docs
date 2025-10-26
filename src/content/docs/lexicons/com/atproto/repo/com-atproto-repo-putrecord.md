@@ -42,7 +42,7 @@ Write a repository record, creating or updating it as needed. Requires auth, imp
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
-| `commit` | [`com.atproto.repo.defs#commitMeta`](/lexicons/com/atproto/repo/defs#commitMeta) | ❌  |  |  |
+| `commit` | [`com.atproto.repo.defs#commitMeta`](/lexicons/com/atproto/repo/com-atproto-repo-defs#commitmeta) | ❌  |  |  |
 | `validationStatus` | `string` | ❌  |  | Known Values: `valid`, `unknown` |
 **Possible Errors:**
 

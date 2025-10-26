@@ -25,7 +25,7 @@ Puts an activity subscription entry. The key should be omitted for creation and 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `subject` | `string` | ✅  |  | Format: `did` |
-| `activitySubscription` | [`app.bsky.notification.defs#activitySubscription`](/lexicons/app/bsky/notification/defs#activitySubscription) | ✅  |  |  |
+| `activitySubscription` | [`app.bsky.notification.defs#activitySubscription`](/lexicons/app/bsky/notification/app-bsky-notification-defs#activitysubscription) | ✅  |  |  |
 **Output:**
 
 - **Encoding:** `application/json`
@@ -36,7 +36,7 @@ Puts an activity subscription entry. The key should be omitted for creation and 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `subject` | `string` | ✅  |  | Format: `did` |
-| `activitySubscription` | [`app.bsky.notification.defs#activitySubscription`](/lexicons/app/bsky/notification/defs#activitySubscription) | ❌  |  |  |
+| `activitySubscription` | [`app.bsky.notification.defs#activitySubscription`](/lexicons/app/bsky/notification/app-bsky-notification-defs#activitysubscription) | ❌  |  |  |
 
 ---
 

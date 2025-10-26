@@ -23,7 +23,7 @@ Get details about an account.
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`com.atproto.admin.defs#accountView`](/lexicons/com/atproto/admin/defs#accountView)
+**Schema Type:** [`com.atproto.admin.defs#accountView`](/lexicons/com/atproto/admin/com-atproto-admin-defs#accountview)
 
 
 

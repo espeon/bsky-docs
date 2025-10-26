@@ -29,7 +29,7 @@ Enumerates public relationships between one account, and a list of other account
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `actor` | `string` | ❌  |  | Format: `did` |
-| `relationships` | Array of Union of:<br/>&nbsp;&nbsp;[`app.bsky.graph.defs#relationship`](/lexicons/app/bsky/graph/defs#relationship)<br/>&nbsp;&nbsp;[`app.bsky.graph.defs#notFoundActor`](/lexicons/app/bsky/graph/defs#notFoundActor) | ✅  |  |  |
+| `relationships` | Array of Union of:<br/>&nbsp;&nbsp;[`app.bsky.graph.defs#relationship`](/lexicons/app/bsky/graph/app-bsky-graph-defs#relationship)<br/>&nbsp;&nbsp;[`app.bsky.graph.defs#notFoundActor`](/lexicons/app/bsky/graph/app-bsky-graph-defs#notfoundactor) | ✅  |  |  |
 **Possible Errors:**
 
 - `ActorNotFound`: the primary actor at-identifier could not be resolved

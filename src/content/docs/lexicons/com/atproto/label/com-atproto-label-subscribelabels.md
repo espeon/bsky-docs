@@ -41,7 +41,7 @@ Subscribe to stream of labels (and negations). Public endpoint implemented by mo
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `seq` | `integer` | ✅  |  |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ✅  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/com-atproto-label-defs#label) | ✅  |  |  |
 
 ---
 

@@ -32,7 +32,7 @@ Initiate age assurance for an account. This is a one-time action that will start
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`app.bsky.unspecced.defs#ageAssuranceState`](/lexicons/app/bsky/unspecced/defs#ageAssuranceState)
+**Schema Type:** [`app.bsky.unspecced.defs#ageAssuranceState`](/lexicons/app/bsky/unspecced/app-bsky-unspecced-defs#ageassurancestate)
 
 
 **Possible Errors:**

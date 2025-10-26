@@ -41,7 +41,7 @@ Create a single new repository record. Requires auth, implemented by PDS.
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `cid` | `string` | ✅  |  | Format: `cid` |
-| `commit` | [`com.atproto.repo.defs#commitMeta`](/lexicons/com/atproto/repo/defs#commitMeta) | ❌  |  |  |
+| `commit` | [`com.atproto.repo.defs#commitMeta`](/lexicons/com/atproto/repo/com-atproto-repo-defs#commitmeta) | ❌  |  |  |
 | `validationStatus` | `string` | ❌  |  | Known Values: `valid`, `unknown` |
 **Possible Errors:**
 

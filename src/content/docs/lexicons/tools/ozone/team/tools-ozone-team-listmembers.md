@@ -32,7 +32,7 @@ List all members with access to the ozone service.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `members` | Array of [`tools.ozone.team.defs#member`](/lexicons/tools/ozone/team/defs#member) | ✅  |  |  |
+| `members` | Array of [`tools.ozone.team.defs#member`](/lexicons/tools/ozone/team/tools-ozone-team-defs#member) | ✅  |  |  |
 
 ---
 

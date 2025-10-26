@@ -32,7 +32,7 @@ Get a view of an actor's 'author feed' (post and reposts by the author). Does no
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `feed` | Array of [`app.bsky.feed.defs#feedViewPost`](/lexicons/app/bsky/feed/defs#feedViewPost) | ✅  |  |  |
+| `feed` | Array of [`app.bsky.feed.defs#feedViewPost`](/lexicons/app/bsky/feed/app-bsky-feed-defs#feedviewpost) | ✅  |  |  |
 **Possible Errors:**
 
 - `BlockedActor`

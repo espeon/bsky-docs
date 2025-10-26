@@ -28,8 +28,8 @@ Get a list of trending topics
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `topics` | Array of [`app.bsky.unspecced.defs#trendingTopic`](/lexicons/app/bsky/unspecced/defs#trendingTopic) | ✅  |  |  |
-| `suggested` | Array of [`app.bsky.unspecced.defs#trendingTopic`](/lexicons/app/bsky/unspecced/defs#trendingTopic) | ✅  |  |  |
+| `topics` | Array of [`app.bsky.unspecced.defs#trendingTopic`](/lexicons/app/bsky/unspecced/app-bsky-unspecced-defs#trendingtopic) | ✅  |  |  |
+| `suggested` | Array of [`app.bsky.unspecced.defs#trendingTopic`](/lexicons/app/bsky/unspecced/app-bsky-unspecced-defs#trendingtopic) | ✅  |  |  |
 
 ---
 

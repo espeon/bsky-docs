@@ -23,7 +23,7 @@ Get detailed profile view of an actor. Does not require auth, but contains relev
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`app.bsky.actor.defs#profileViewDetailed`](/lexicons/app/bsky/actor/defs#profileViewDetailed)
+**Schema Type:** [`app.bsky.actor.defs#profileViewDetailed`](/lexicons/app/bsky/actor/app-bsky-actor-defs#profileviewdetailed)
 
 
 

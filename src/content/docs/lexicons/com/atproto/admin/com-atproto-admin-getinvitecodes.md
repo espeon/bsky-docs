@@ -30,7 +30,7 @@ Get an admin view of invite codes.
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
 | `cursor` | `string` | ❌  |  |  |
-| `codes` | Array of [`com.atproto.server.defs#inviteCode`](/lexicons/com/atproto/server/defs#inviteCode) | ✅  |  |  |
+| `codes` | Array of [`com.atproto.server.defs#inviteCode`](/lexicons/com/atproto/server/com-atproto-server-defs#invitecode) | ✅  |  |  |
 
 ---
 

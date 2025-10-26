@@ -19,11 +19,11 @@ description: Reference for the chat.bsky.actor.defs lexicon
 | `handle` | `string` | ✅  |  | Format: `handle` |
 | `displayName` | `string` | ❌  |  | Max Length: 640<br/>Max Graphemes: 64 |
 | `avatar` | `string` | ❌  |  | Format: `uri` |
-| `associated` | [`app.bsky.actor.defs#profileAssociated`](/lexicons/app/bsky/actor/defs#profileAssociated) | ❌  |  |  |
-| `viewer` | [`app.bsky.actor.defs#viewerState`](/lexicons/app/bsky/actor/defs#viewerState) | ❌  |  |  |
-| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/defs#label) | ❌  |  |  |
+| `associated` | [`app.bsky.actor.defs#profileAssociated`](/lexicons/app/bsky/actor/app-bsky-actor-defs#profileassociated) | ❌  |  |  |
+| `viewer` | [`app.bsky.actor.defs#viewerState`](/lexicons/app/bsky/actor/app-bsky-actor-defs#viewerstate) | ❌  |  |  |
+| `labels` | Array of [`com.atproto.label.defs#label`](/lexicons/com/atproto/label/com-atproto-label-defs#label) | ❌  |  |  |
 | `chatDisabled` | `boolean` | ❌  | Set to true when the actor cannot actively participate in conversations |  |
-| `verification` | [`app.bsky.actor.defs#verificationState`](/lexicons/app/bsky/actor/defs#verificationState) | ❌  |  |  |
+| `verification` | [`app.bsky.actor.defs#verificationState`](/lexicons/app/bsky/actor/app-bsky-actor-defs#verificationstate) | ❌  |  |  |
 
 ---
 

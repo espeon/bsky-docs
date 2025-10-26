@@ -43,7 +43,7 @@ description: Reference for the app.bsky.unspecced.getPostThreadOtherV2 lexicon
 |------|------|----------|-------------|-------------|
 | `uri` | `string` | ✅  |  | Format: `at-uri` |
 | `depth` | `integer` | ✅  | The nesting level of this item in the thread. Depth 0 means the anchor item. Items above have negative depths, items below have positive depths. |  |
-| `value` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.unspecced.defs#threadItemPost`](/lexicons/app/bsky/unspecced/defs#threadItemPost) | ✅  |  |  |
+| `value` | Union of:<br/>&nbsp;&nbsp;[`app.bsky.unspecced.defs#threadItemPost`](/lexicons/app/bsky/unspecced/app-bsky-unspecced-defs#threaditempost) | ✅  |  |  |
 
 ---
 

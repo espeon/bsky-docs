@@ -24,7 +24,7 @@ Send information about interactions with feed items back to the feed generator t
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `interactions` | Array of [`app.bsky.feed.defs#interaction`](/lexicons/app/bsky/feed/defs#interaction) | ✅  |  |  |
+| `interactions` | Array of [`app.bsky.feed.defs#interaction`](/lexicons/app/bsky/feed/app-bsky-feed-defs#interaction) | ✅  |  |  |
 **Output:**
 
 - **Encoding:** `application/json`

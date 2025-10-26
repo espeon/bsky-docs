@@ -21,7 +21,7 @@ Record defining a starter pack of actors and feeds for new users.
 |------|------|----------|-------------|-------------|
 | `name` | `string` | ✅  | Display name for starter pack; can not be empty. | Min Length: 1<br/>Max Length: 500<br/>Max Graphemes: 50 |
 | `description` | `string` | ❌  |  | Max Length: 3000<br/>Max Graphemes: 300 |
-| `descriptionFacets` | Array of [`app.bsky.richtext.facet`](/lexicons/app/bsky/richtext/facet#undefined) | ❌  |  |  |
+| `descriptionFacets` | Array of [`app.bsky.richtext.facet`](/lexicons/app/bsky/richtext/app-bsky-richtext-facet) | ❌  |  |  |
 | `list` | `string` | ✅  | Reference (AT-URI) to the list record. | Format: `at-uri` |
 | `feeds` | Array of [`#feedItem`](#feeditem) | ❌  |  | Max Items: 3 |
 | `createdAt` | `string` | ✅  |  | Format: `datetime` |

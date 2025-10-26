@@ -27,7 +27,7 @@ Get details about some accounts.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `infos` | Array of [`com.atproto.admin.defs#accountView`](/lexicons/com/atproto/admin/defs#accountView) | ✅  |  |  |
+| `infos` | Array of [`com.atproto.admin.defs#accountView`](/lexicons/com/atproto/admin/com-atproto-admin-defs#accountview) | ✅  |  |  |
 
 ---
 

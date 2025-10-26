@@ -31,7 +31,7 @@ Query available sets
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `sets` | Array of [`tools.ozone.set.defs#setView`](/lexicons/tools/ozone/set/defs#setView) | ✅  |  |  |
+| `sets` | Array of [`tools.ozone.set.defs#setView`](/lexicons/tools/ozone/set/tools-ozone-set-defs#setview) | ✅  |  |  |
 | `cursor` | `string` | ❌  |  |  |
 
 ---

@@ -23,7 +23,7 @@ Get details about a repository.
 - **Encoding:** `application/json`
 - **Schema:**
 
-**Schema Type:** [`tools.ozone.moderation.defs#repoViewDetail`](/lexicons/tools/ozone/moderation/defs#repoViewDetail)
+**Schema Type:** [`tools.ozone.moderation.defs#repoViewDetail`](/lexicons/tools/ozone/moderation/tools-ozone-moderation-defs#repoviewdetail)
 
 
 **Possible Errors:**

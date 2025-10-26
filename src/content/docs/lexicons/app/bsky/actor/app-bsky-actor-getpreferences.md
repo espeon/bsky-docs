@@ -24,7 +24,7 @@ Get private preferences attached to the current account. Expected use is synchro
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `preferences` | [`app.bsky.actor.defs#preferences`](/lexicons/app/bsky/actor/defs#preferences) | ✅  |  |  |
+| `preferences` | [`app.bsky.actor.defs#preferences`](/lexicons/app/bsky/actor/app-bsky-actor-defs#preferences) | ✅  |  |  |
 
 ---
 

@@ -28,7 +28,7 @@ Get information about a list of labeler services.
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `views` | Array of Union of:<br/>&nbsp;&nbsp;[`app.bsky.labeler.defs#labelerView`](/lexicons/app/bsky/labeler/defs#labelerView)<br/>&nbsp;&nbsp;[`app.bsky.labeler.defs#labelerViewDetailed`](/lexicons/app/bsky/labeler/defs#labelerViewDetailed) | ✅  |  |  |
+| `views` | Array of Union of:<br/>&nbsp;&nbsp;[`app.bsky.labeler.defs#labelerView`](/lexicons/app/bsky/labeler/app-bsky-labeler-defs#labelerview)<br/>&nbsp;&nbsp;[`app.bsky.labeler.defs#labelerViewDetailed`](/lexicons/app/bsky/labeler/app-bsky-labeler-defs#labelerviewdetailed) | ✅  |  |  |
 
 ---
 

@@ -45,8 +45,8 @@ A starter pack and an optional list item indicating membership of a target user 
 
 | Name | Type | Req'd  | Description | Constraints |
 |------|------|----------|-------------|-------------|
-| `starterPack` | [`app.bsky.graph.defs#starterPackView`](/lexicons/app/bsky/graph/defs#starterPackView) | ✅  |  |  |
-| `listItem` | [`app.bsky.graph.defs#listItemView`](/lexicons/app/bsky/graph/defs#listItemView) | ❌  |  |  |
+| `starterPack` | [`app.bsky.graph.defs#starterPackView`](/lexicons/app/bsky/graph/app-bsky-graph-defs#starterpackview) | ✅  |  |  |
+| `listItem` | [`app.bsky.graph.defs#listItemView`](/lexicons/app/bsky/graph/app-bsky-graph-defs#listitemview) | ❌  |  |  |
 
 ---
 
