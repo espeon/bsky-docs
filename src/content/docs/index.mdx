@@ -1,40 +1,41 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Bluesky & AT Protocol Documentation
+description: Documentation for Bluesky and the AT Protocol, including auto-generated lexicon references.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: Open-source social networking built on the AT Protocol
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Browse Lexicons
+      link: /lexicons/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: AT Protocol Docs
+      link: https://atproto.com
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Documentation
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Lexicon Reference" icon="open-book">
+		Auto-generated documentation for all AT Protocol lexicon schemas. Updated from the official atproto repository.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="AT Protocol" icon="puzzle">
+		The Authenticated Transfer Protocol is a federated protocol for large-scale distributed social applications.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Open Source" icon="github">
+		Built on open standards. View the [atproto repository](https://github.com/bluesky-social/atproto) on GitHub.
 	</Card>
 </CardGrid>
+
+## Keeping Documentation Updated
+
+This site includes auto-generated lexicon documentation. To update:
+
+```bash
+npm run docs:generate
+```
+
+This pulls the latest lexicons from the atproto repository and regenerates all documentation.

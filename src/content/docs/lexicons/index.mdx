@@ -1,0 +1,48 @@
+---
+title: AT Protocol Lexicons
+description: Reference documentation for all AT Protocol lexicon schemas.
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Overview
+
+Lexicons are the schema definitions that power the AT Protocol. They define the structure of records, queries, procedures, and subscriptions used throughout the network.
+
+This documentation is auto-generated from the official [atproto repository](https://github.com/bluesky-social/atproto/tree/main/lexicons).
+
+## Namespaces
+
+<CardGrid>
+  <Card title="app.bsky.*" icon="star">
+    Bluesky application schemas including feeds, posts, profiles, and social features.
+  </Card>
+  <Card title="com.atproto.*" icon="puzzle">
+    Core AT Protocol schemas for identity, repositories, sync, and server operations.
+  </Card>
+  <Card title="chat.bsky.*" icon="comment">
+    Bluesky chat and messaging schemas.
+  </Card>
+  <Card title="tools.ozone.*" icon="seti:config">
+    Ozone moderation and administration tools.
+  </Card>
+</CardGrid>
+
+## Lexicon Types
+
+Lexicons can define several types of operations:
+
+- **Records** - Data structures that can be stored in repositories (e.g., posts, profiles, likes)
+- **Queries** - Read-only operations to fetch data from a server
+- **Procedures** - Operations that modify server state
+- **Subscriptions** - Real-time event streams
+
+## Updating This Documentation
+
+This documentation is automatically generated. To update to the latest lexicon definitions:
+
+```bash
+npm run docs:generate
+```
+
+This will pull the latest lexicons from the atproto repository and regenerate all documentation pages.

@@ -1,0 +1,93 @@
+---
+title: com.atproto.server.getServiceAuth
+description: Reference for the com.atproto.server.getServiceAuth lexicon
+---
+**Lexicon Version:** 1
+
+## Definitions
+
+<a name="main"></a>
+### `main`
+
+**Type:** `query`
+
+Get a signed token on behalf of the requesting DID for the requested service.
+
+**Parameters:**
+
+| Name | Type | Req'd  | Description | Constraints |
+|------|------|----------|-------------|-------------|
+| `aud` | `string` | ✅  | The DID of the service that the token will be used to authenticate with | Format: `did` |
+| `exp` | `integer` | ❌  | The time in Unix Epoch seconds that the JWT expires. Defaults to 60 seconds in the future. The service may enforce certain time bounds on tokens depending on the requested scope. |  |
+| `lxm` | `string` | ❌  | Lexicon (XRPC) method to bind the requested token to | Format: `nsid` |
+**Output:**
+
+- **Encoding:** `application/json`
+- **Schema:**
+
+**Schema Type:** `object`
+
+| Name | Type | Req'd  | Description | Constraints |
+|------|------|----------|-------------|-------------|
+| `token` | `string` | ✅  |  |  |
+**Possible Errors:**
+
+- `BadExpiration`: Indicates that the requested expiration date is not a valid. May be in the past or may be reliant on the requested scopes.
+
+---
+
+## Lexicon Source
+```json
+{
+  "lexicon": 1,
+  "id": "com.atproto.server.getServiceAuth",
+  "defs": {
+    "main": {
+      "type": "query",
+      "description": "Get a signed token on behalf of the requesting DID for the requested service.",
+      "parameters": {
+        "type": "params",
+        "required": [
+          "aud"
+        ],
+        "properties": {
+          "aud": {
+            "type": "string",
+            "format": "did",
+            "description": "The DID of the service that the token will be used to authenticate with"
+          },
+          "exp": {
+            "type": "integer",
+            "description": "The time in Unix Epoch seconds that the JWT expires. Defaults to 60 seconds in the future. The service may enforce certain time bounds on tokens depending on the requested scope."
+          },
+          "lxm": {
+            "type": "string",
+            "format": "nsid",
+            "description": "Lexicon (XRPC) method to bind the requested token to"
+          }
+        }
+      },
+      "output": {
+        "encoding": "application/json",
+        "schema": {
+          "type": "object",
+          "required": [
+            "token"
+          ],
+          "properties": {
+            "token": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "errors": [
+        {
+          "name": "BadExpiration",
+          "description": "Indicates that the requested expiration date is not a valid. May be in the past or may be reliant on the requested scopes."
+        }
+      ]
+    }
+  }
+}
+```

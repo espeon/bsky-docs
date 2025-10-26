@@ -1,0 +1,17 @@
+/* Custom styles for bsky-docs */
+
+/* Widen the main content area */
+@media (min-width: 1151px) {
+    :root {
+        --sl-content-width: min(60vw, 65rem);
+    }
+}
+table td:first-child,
+table th:first-child {
+    white-space: pre;
+}
+
+table td,
+table th {
+    min-width: 100px;
+}

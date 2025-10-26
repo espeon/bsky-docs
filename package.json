@@ -7,11 +7,23 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "submodule:init": "git submodule update --init --recursive || git submodule add https://github.com/bluesky-social/atproto.git atproto",
+    "submodule:update": "git submodule update --remote --merge",
+    "submodule:status": "git submodule status",
+    "lex:build": "tsc lex/main.ts lex/types.ts lex/config.ts lex/openapi.ts lex/util.ts --outDir lex/dist --module nodenext --moduleResolution nodenext --target es2022 --esModuleInterop --skipLibCheck",
+    "lex:generate": "npm run lex:build && node lex/dist/main.js atproto/lexicons src/content/docs/lexicons",
+    "lex:generate:full": "npm run submodule:update && npm run lex:generate",
+    "lex:status": "echo 'Checking lexicon setup...' && ([ -e 'atproto/.git' ] && echo '✅ Submodule initialized' || echo '❌ Submodule not initialized - run: npm run submodule:init') && ([ -d 'lex/dist' ] && echo '✅ Generator built' || echo '❌ Generator not built - run: npm run lex:build') && ([ -d 'src/content/docs/lexicons' ] && echo '✅ Docs directory exists' || echo '⚠️  Docs not yet generated - run: npm run lex:generate')",
+    "lex:help": "echo '\n📚 Lexicon Documentation Commands:\n' && echo '  npm run docs:generate    - Update and regenerate all docs (recommended)' && echo '  npm run lex:generate     - Regenerate docs from current lexicons' && echo '  npm run submodule:init   - Initialize atproto submodule' && echo '  npm run submodule:update - Update atproto to latest' && echo '  npm run lex:status       - Check setup status' && echo '  ./setup-lexicons.sh      - Automated first-time setup\n' && echo 'See lex/README.md for detailed documentation\n'",
+    "docs:generate": "npm run lex:generate:full"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.36.1",
     "astro": "^5.6.1",
-    "sharp": "^0.34.2"
-  }
+    "sharp": "^0.34.2",
+    "@atproto/syntax": "^0.4.0",
+    "zod": "^3.24.3"
+  },
+  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977"
 }
